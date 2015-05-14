@@ -1,9 +1,17 @@
 {
 	"name": "autocomplete-abl",
 	"main": "./lib/autocomplete-abl",
-	"version": "0.0.0",
-	"description": "A short description of your package",
-	"repository": "https://github.com/tomasgreen/autocomplete-abl",
+	"version": "0.1.0",
+	"description": "Autocomplete-plus for OpenEdge ABL",
+	"homepage": "https://github.com/tomasgreen/autocomplete-abl",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tomasgreen/autocomplete-abl.git"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/tomasgreen/autocomplete-abl/issues"
+	},
 	"license": "MIT",
 	"engines": {
 		"atom": ">=0.174.0 <2.0.0"
