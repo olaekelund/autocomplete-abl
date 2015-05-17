@@ -5,16 +5,6 @@
         "type": "function"
     },
     {
-        "text": "ABS",
-        "displayText": "ABS",
-        "type": "keyword"
-    },
-    {
-        "text": "ABSOLUTE",
-        "displayText": "ABSOLUTE",
-        "type": "keyword"
-    },
-    {
         "text": "ABSOLUTE",
         "displayText": "ABSOLUTE",
         "type": "function"
@@ -33,11 +23,6 @@
         "text": "ACCUM",
         "displayText": "ACCUM",
         "type": "function"
-    },
-    {
-        "text": "ACCUM",
-        "displayText": "ACCUM",
-        "type": "keyword"
     },
     {
         "text": "ACCUM",
@@ -97,11 +82,6 @@
     {
         "text": "ADD-INDEX-FIELD",
         "displayText": "ADD-INDEX-FIELD",
-        "type": "keyword"
-    },
-    {
-        "text": "ADD-INTERVAL",
-        "displayText": "ADD-INTERVAL",
         "type": "keyword"
     },
     {
@@ -172,11 +152,6 @@
     },
     {
         "text": "ALIAS",
-        "displayText": "ALIAS",
-        "type": "keyword"
-    },
-    {
-        "text": "ALIAS",
         "displayText": "ALIAS()",
         "type": "function",
         "snippet": "ALIAS(${1:value...})"
@@ -210,16 +185,6 @@
         "text": "AMBIG",
         "displayText": "AMBIG",
         "type": "function"
-    },
-    {
-        "text": "AMBIG",
-        "displayText": "AMBIG",
-        "type": "keyword"
-    },
-    {
-        "text": "AMBIGUOUS",
-        "displayText": "AMBIGUOUS",
-        "type": "keyword"
     },
     {
         "text": "AMBIGUOUS",
@@ -313,19 +278,14 @@
     },
     {
         "text": "ASC",
-        "displayText": "ASC",
-        "type": "keyword"
-    },
-    {
-        "text": "ASC",
-        "displayText": "ASC",
-        "type": "keyword"
-    },
-    {
-        "text": "ASC",
         "displayText": "ASC()",
         "type": "function",
         "snippet": "ASC(${1:value...})"
+    },
+    {
+        "text": "ASC",
+        "displayText": "ASC",
+        "type": "keyword"
     },
     {
         "text": "ASCENDING",
@@ -385,11 +345,6 @@
     {
         "text": "AUDIT-CONTROL",
         "displayText": "AUDIT-CONTROL",
-        "type": "keyword"
-    },
-    {
-        "text": "AUDIT-ENABLED",
-        "displayText": "AUDIT-ENABLED",
         "type": "keyword"
     },
     {
@@ -491,22 +446,7 @@
     {
         "text": "AVAIL",
         "displayText": "AVAIL",
-        "type": "keyword"
-    },
-    {
-        "text": "AVAIL",
-        "displayText": "AVAIL",
         "type": "function"
-    },
-    {
-        "text": "AVAIL",
-        "displayText": "AVAIL",
-        "type": "keyword"
-    },
-    {
-        "text": "AVAILABLE",
-        "displayText": "AVAILABLE",
-        "type": "keyword"
     },
     {
         "text": "AVAILABLE",
@@ -565,11 +505,6 @@
     },
     {
         "text": "BASE64-DECODE",
-        "displayText": "BASE64-DECODE",
-        "type": "keyword"
-    },
-    {
-        "text": "BASE64-DECODE",
         "displayText": "BASE64-DECODE()",
         "type": "function",
         "snippet": "BASE64-DECODE(${1:value...})"
@@ -579,11 +514,6 @@
         "displayText": "BASE64-ENCODE()",
         "type": "function",
         "snippet": "BASE64-ENCODE(${1:value...})"
-    },
-    {
-        "text": "BASE64-ENCODE",
-        "displayText": "BASE64-ENCODE",
-        "type": "keyword"
     },
     {
         "text": "BATCH",
@@ -767,11 +697,6 @@
         "snippet": "BOX(${1:value...})"
     },
     {
-        "text": "BOX",
-        "displayText": "BOX",
-        "type": "keyword"
-    },
-    {
         "text": "BOX-SELECT",
         "displayText": "BOX-SELECT",
         "type": "keyword"
@@ -828,11 +753,6 @@
     },
     {
         "text": "BUFFER-GROUP-ID",
-        "displayText": "BUFFER-GROUP-ID",
-        "type": "keyword"
-    },
-    {
-        "text": "BUFFER-GROUP-ID",
         "displayText": "BUFFER-GROUP-ID()",
         "type": "function",
         "snippet": "BUFFER-GROUP-ID(${1:value...})"
@@ -842,11 +762,6 @@
         "displayText": "BUFFER-GROUP-NAME()",
         "type": "function",
         "snippet": "BUFFER-GROUP-NAME(${1:value...})"
-    },
-    {
-        "text": "BUFFER-GROUP-NAME",
-        "displayText": "BUFFER-GROUP-NAME",
-        "type": "keyword"
     },
     {
         "text": "BUFFER-HANDLE",
@@ -870,18 +785,8 @@
         "snippet": "BUFFER-PARTITION-ID(${1:value...})"
     },
     {
-        "text": "BUFFER-PARTITION-ID",
-        "displayText": "BUFFER-PARTITION-ID",
-        "type": "keyword"
-    },
-    {
         "text": "BUFFER-RELEASE",
         "displayText": "BUFFER-RELEASE",
-        "type": "keyword"
-    },
-    {
-        "text": "BUFFER-TENANT-ID",
-        "displayText": "BUFFER-TENANT-ID",
         "type": "keyword"
     },
     {
@@ -895,11 +800,6 @@
         "displayText": "BUFFER-TENANT-NAME()",
         "type": "function",
         "snippet": "BUFFER-TENANT-NAME(${1:value...})"
-    },
-    {
-        "text": "BUFFER-TENANT-NAME",
-        "displayText": "BUFFER-TENANT-NAME",
-        "type": "keyword"
     },
     {
         "text": "BUFFER-VALUE",
@@ -978,11 +878,6 @@
     },
     {
         "text": "CAN-DO",
-        "displayText": "CAN-DO",
-        "type": "keyword"
-    },
-    {
-        "text": "CAN-DO",
         "displayText": "CAN-DO()",
         "type": "function",
         "snippet": "CAN-DO(${1:value...})"
@@ -994,19 +889,9 @@
     },
     {
         "text": "CAN-FIND",
-        "displayText": "CAN-FIND",
-        "type": "keyword"
-    },
-    {
-        "text": "CAN-FIND",
         "displayText": "CAN-FIND()",
         "type": "function",
         "snippet": "CAN-FIND(${1:value...})"
-    },
-    {
-        "text": "CAN-QUERY",
-        "displayText": "CAN-QUERY",
-        "type": "keyword"
     },
     {
         "text": "CAN-QUERY",
@@ -1026,11 +911,6 @@
         "snippet": "CAN-SET(${1:value...})"
     },
     {
-        "text": "CAN-SET",
-        "displayText": "CAN-SET",
-        "type": "keyword"
-    },
-    {
         "text": "CAN-WRITE",
         "displayText": "CAN-WRITE",
         "type": "keyword"
@@ -1043,11 +923,6 @@
     {
         "text": "CANCEL-BUTTON",
         "displayText": "CANCEL-BUTTON",
-        "type": "keyword"
-    },
-    {
-        "text": "CAPS",
-        "displayText": "CAPS",
         "type": "keyword"
     },
     {
@@ -1081,11 +956,6 @@
         "displayText": "CAST()",
         "type": "function",
         "snippet": "CAST(${1:value...})"
-    },
-    {
-        "text": "CAST",
-        "displayText": "CAST",
-        "type": "keyword"
     },
     {
         "text": "CATCH",
@@ -1145,11 +1015,6 @@
     {
         "text": "CHOOSE",
         "displayText": "CHOOSE",
-        "type": "keyword"
-    },
-    {
-        "text": "CHR",
-        "displayText": "CHR",
         "type": "keyword"
     },
     {
@@ -1261,18 +1126,13 @@
     {
         "text": "CODEPAGE-CONVERT",
         "displayText": "CODEPAGE-CONVERT()",
-        "snippet": "CODEPAGE-CONVERT(${1:source-string},${2:target-codepage},${3:source-codepage})"
-    },
-    {
-        "text": "CODEPAGE-CONVERT",
-        "displayText": "CODEPAGE-CONVERT()",
         "type": "function",
         "snippet": "CODEPAGE-CONVERT(${1:value...})"
     },
     {
         "text": "CODEPAGE-CONVERT",
-        "displayText": "CODEPAGE-CONVERT",
-        "type": "keyword"
+        "displayText": "CODEPAGE-CONVERT()",
+        "snippet": "CODEPAGE-CONVERT(${1:source-string},${2:target-codepage},${3:source-codepage})"
     },
     {
         "text": "COL",
@@ -1411,11 +1271,6 @@
         "snippet": "COMPARE(${1:value...})"
     },
     {
-        "text": "COMPARE",
-        "displayText": "COMPARE",
-        "type": "keyword"
-    },
-    {
         "text": "COMPARES",
         "displayText": "COMPARES",
         "type": "keyword"
@@ -1450,11 +1305,6 @@
         "displayText": "CONNECTED()",
         "type": "function",
         "snippet": "CONNECTED(${1:value...})"
-    },
-    {
-        "text": "CONNECTED",
-        "displayText": "CONNECTED",
-        "type": "keyword"
     },
     {
         "text": "CONTAINS",
@@ -1553,11 +1403,6 @@
     },
     {
         "text": "COUNT-OF",
-        "displayText": "COUNT-OF",
-        "type": "keyword"
-    },
-    {
-        "text": "COUNT-OF",
         "displayText": "COUNT-OF()",
         "type": "function",
         "snippet": "COUNT-OF(${1:value...})"
@@ -1650,11 +1495,6 @@
     {
         "text": "CURRENT-CHANGED",
         "displayText": "CURRENT-CHANGED",
-        "type": "keyword"
-    },
-    {
-        "text": "CURRENT-CHANGED",
-        "displayText": "CURRENT-CHANGED",
         "type": "function"
     },
     {
@@ -1714,11 +1554,6 @@
     },
     {
         "text": "CURRENT-RESULT-ROW",
-        "displayText": "CURRENT-RESULT-ROW",
-        "type": "keyword"
-    },
-    {
-        "text": "CURRENT-RESULT-ROW",
         "displayText": "CURRENT-RESULT-ROW()",
         "type": "function",
         "snippet": "CURRENT-RESULT-ROW(${1:value...})"
@@ -1730,14 +1565,14 @@
     },
     {
         "text": "CURRENT-VALUE",
-        "displayText": "CURRENT-VALUE()",
-        "type": "function",
-        "snippet": "CURRENT-VALUE(${1:value...})"
+        "displayText": "CURRENT-VALUE",
+        "type": "keyword"
     },
     {
         "text": "CURRENT-VALUE",
-        "displayText": "CURRENT-VALUE",
-        "type": "keyword"
+        "displayText": "CURRENT-VALUE()",
+        "type": "function",
+        "snippet": "CURRENT-VALUE(${1:value...})"
     },
     {
         "text": "CURRENT-WINDOW",
@@ -1812,11 +1647,6 @@
     {
         "text": "DATA-SOURCE-MODIFIED",
         "displayText": "DATA-SOURCE-MODIFIED",
-        "type": "keyword"
-    },
-    {
-        "text": "DATA-SOURCE-MODIFIED",
-        "displayText": "DATA-SOURCE-MODIFIED",
         "type": "function"
     },
     {
@@ -1837,11 +1667,6 @@
     {
         "text": "DATABASE",
         "displayText": "DATABASE",
-        "type": "keyword"
-    },
-    {
-        "text": "DATASERVERS",
-        "displayText": "DATASERVERS",
         "type": "keyword"
     },
     {
@@ -1893,25 +1718,20 @@
     },
     {
         "text": "DATETIME-TZ",
-        "displayText": "DATETIME-TZ",
-        "type": "datatype"
-    },
-    {
-        "text": "DATETIME-TZ",
         "displayText": "DATETIME-TZ()",
         "type": "function",
         "snippet": "DATETIME-TZ(${1:value...})"
+    },
+    {
+        "text": "DATETIME-TZ",
+        "displayText": "DATETIME-TZ",
+        "type": "datatype"
     },
     {
         "text": "DAY",
         "displayText": "DAY()",
         "type": "function",
         "snippet": "DAY(${1:value...})"
-    },
-    {
-        "text": "DAY",
-        "displayText": "DAY",
-        "type": "keyword"
     },
     {
         "text": "DB-CONTEXT",
@@ -1921,11 +1741,6 @@
     {
         "text": "DB-REFERENCES",
         "displayText": "DB-REFERENCES",
-        "type": "keyword"
-    },
-    {
-        "text": "DB-REMOTE-HOST",
-        "displayText": "DB-REMOTE-HOST",
         "type": "keyword"
     },
     {
@@ -1941,35 +1756,15 @@
         "snippet": "DBCODEPAGE(${1:value...})"
     },
     {
-        "text": "DBCODEPAGE",
-        "displayText": "DBCODEPAGE",
-        "type": "keyword"
-    },
-    {
         "text": "DBCOLLATION",
         "displayText": "DBCOLLATION()",
         "type": "function",
         "snippet": "DBCOLLATION(${1:value...})"
     },
     {
-        "text": "DBCOLLATION",
-        "displayText": "DBCOLLATION",
-        "type": "keyword"
-    },
-    {
-        "text": "DBNAME",
-        "displayText": "DBNAME",
-        "type": "keyword"
-    },
-    {
         "text": "DBNAME",
         "displayText": "DBNAME",
         "type": "function"
-    },
-    {
-        "text": "DBPARAM",
-        "displayText": "DBPARAM",
-        "type": "keyword"
     },
     {
         "text": "DBPARAM",
@@ -1984,25 +1779,10 @@
         "snippet": "DBREST(${1:value...})"
     },
     {
-        "text": "DBREST",
-        "displayText": "DBREST",
-        "type": "keyword"
-    },
-    {
         "text": "DBRESTRICTIONS",
         "displayText": "DBRESTRICTIONS()",
         "type": "function",
         "snippet": "DBRESTRICTIONS(${1:value...})"
-    },
-    {
-        "text": "DBRESTRICTIONS",
-        "displayText": "DBRESTRICTIONS",
-        "type": "keyword"
-    },
-    {
-        "text": "DBTASKID",
-        "displayText": "DBTASKID",
-        "type": "keyword"
     },
     {
         "text": "DBTASKID",
@@ -2017,25 +1797,10 @@
         "snippet": "DBTYPE(${1:value...})"
     },
     {
-        "text": "DBTYPE",
-        "displayText": "DBTYPE",
-        "type": "keyword"
-    },
-    {
         "text": "DBVERS",
         "displayText": "DBVERS()",
         "type": "function",
         "snippet": "DBVERS(${1:value...})"
-    },
-    {
-        "text": "DBVERS",
-        "displayText": "DBVERS",
-        "type": "keyword"
-    },
-    {
-        "text": "DBVERSION",
-        "displayText": "DBVERSION",
-        "type": "keyword"
     },
     {
         "text": "DBVERSION",
@@ -2128,11 +1893,6 @@
     {
         "text": "DEC",
         "displayText": "DEC",
-        "type": "keyword"
-    },
-    {
-        "text": "DEC",
-        "displayText": "DEC",
         "type": "datatype"
     },
     {
@@ -2166,11 +1926,6 @@
         "displayText": "DECRYPT()",
         "type": "function",
         "snippet": "DECRYPT(${1:value...})"
-    },
-    {
-        "text": "DECRYPT",
-        "displayText": "DECRYPT",
-        "type": "keyword"
     },
     {
         "text": "DEF",
@@ -2532,8 +2287,8 @@
         "snippet": "DYNAMIC-CAST(${1:value...})"
     },
     {
-        "text": "DYNAMIC-CAST",
-        "displayText": "DYNAMIC-CAST",
+        "text": "DYNAMIC-CURRENT-VALUE",
+        "displayText": "DYNAMIC-CURRENT-VALUE",
         "type": "keyword"
     },
     {
@@ -2543,20 +2298,10 @@
         "snippet": "DYNAMIC-CURRENT-VALUE(${1:value...})"
     },
     {
-        "text": "DYNAMIC-CURRENT-VALUE",
-        "displayText": "DYNAMIC-CURRENT-VALUE",
-        "type": "keyword"
-    },
-    {
         "text": "DYNAMIC-FUNCTION",
         "displayText": "DYNAMIC-FUNCTION()",
         "type": "function",
         "snippet": "DYNAMIC-FUNCTION(${1:value...})"
-    },
-    {
-        "text": "DYNAMIC-FUNCTION",
-        "displayText": "DYNAMIC-FUNCTION",
-        "type": "keyword"
     },
     {
         "text": "DYNAMIC-INVOKE",
@@ -2565,18 +2310,8 @@
         "snippet": "DYNAMIC-INVOKE(${1:value...})"
     },
     {
-        "text": "DYNAMIC-INVOKE",
-        "displayText": "DYNAMIC-INVOKE",
-        "type": "keyword"
-    },
-    {
         "text": "DYNAMIC-NEW",
         "displayText": "DYNAMIC-NEW",
-        "type": "keyword"
-    },
-    {
-        "text": "DYNAMIC-NEXT-VALUE",
-        "displayText": "DYNAMIC-NEXT-VALUE",
         "type": "keyword"
     },
     {
@@ -2587,14 +2322,14 @@
     },
     {
         "text": "DYNAMIC-PROPERTY",
-        "displayText": "DYNAMIC-PROPERTY()",
-        "type": "function",
-        "snippet": "DYNAMIC-PROPERTY(${1:value...})"
+        "displayText": "DYNAMIC-PROPERTY",
+        "type": "keyword"
     },
     {
         "text": "DYNAMIC-PROPERTY",
-        "displayText": "DYNAMIC-PROPERTY",
-        "type": "keyword"
+        "displayText": "DYNAMIC-PROPERTY()",
+        "type": "function",
+        "snippet": "DYNAMIC-PROPERTY(${1:value...})"
     },
     {
         "text": "EACH",
@@ -2673,14 +2408,14 @@
     },
     {
         "text": "ELSE",
-        "displayText": "ELSE",
-        "type": "function"
-    },
-    {
-        "text": "ELSE",
         "displayText": "&ELSE",
         "type": "preprocessor",
         "snippet": "&ELSE"
+    },
+    {
+        "text": "ELSE",
+        "displayText": "ELSE",
+        "type": "function"
     },
     {
         "text": "ELSEIF",
@@ -2715,20 +2450,10 @@
         "snippet": "ENCODE(${1:value...})"
     },
     {
-        "text": "ENCODE",
-        "displayText": "ENCODE",
-        "type": "keyword"
-    },
-    {
         "text": "ENCRYPT",
         "displayText": "ENCRYPT()",
         "type": "function",
         "snippet": "ENCRYPT(${1:value...})"
-    },
-    {
-        "text": "ENCRYPT",
-        "displayText": "ENCRYPT",
-        "type": "keyword"
     },
     {
         "text": "ENCRYPT-AUDIT-MAC-KEY",
@@ -2804,12 +2529,12 @@
     {
         "text": "ENTERED",
         "displayText": "ENTERED",
-        "type": "keyword"
+        "type": "function"
     },
     {
-        "text": "ENTERED",
-        "displayText": "ENTERED",
-        "type": "function"
+        "text": "ENTRY",
+        "displayText": "ENTRY",
+        "type": "keyword"
     },
     {
         "text": "ENTRY",
@@ -2818,18 +2543,8 @@
         "snippet": "ENTRY(${1:value...})"
     },
     {
-        "text": "ENTRY",
-        "displayText": "ENTRY",
-        "type": "keyword"
-    },
-    {
         "text": "EQ",
         "displayText": "EQ",
-        "type": "keyword"
-    },
-    {
-        "text": "ERROR",
-        "displayText": "ERROR",
         "type": "keyword"
     },
     {
@@ -2870,11 +2585,6 @@
     {
         "text": "ESCAPE",
         "displayText": "ESCAPE",
-        "type": "keyword"
-    },
-    {
-        "text": "ETIME",
-        "displayText": "ETIME",
         "type": "keyword"
     },
     {
@@ -2960,11 +2670,6 @@
         "snippet": "EXP(${1:value...})"
     },
     {
-        "text": "EXP",
-        "displayText": "EXP",
-        "type": "keyword"
-    },
-    {
         "text": "EXPAND",
         "displayText": "EXPAND",
         "type": "keyword"
@@ -2996,14 +2701,14 @@
     },
     {
         "text": "EXTENT",
-        "displayText": "EXTENT()",
-        "type": "function",
-        "snippet": "EXTENT(${1:value...})"
+        "displayText": "EXTENT",
+        "type": "keyword"
     },
     {
         "text": "EXTENT",
-        "displayText": "EXTENT",
-        "type": "keyword"
+        "displayText": "EXTENT()",
+        "type": "function",
+        "snippet": "EXTENT(${1:value...})"
     },
     {
         "text": "EXTERNAL",
@@ -3071,11 +2776,6 @@
         "type": "keyword"
     },
     {
-        "text": "FILE-INFO",
-        "displayText": "FILE-INFO",
-        "type": "keyword"
-    },
-    {
         "text": "FILE-INFORMATION",
         "displayText": "FILE-INFORMATION",
         "type": "keyword"
@@ -3118,11 +2818,6 @@
     {
         "text": "FILENAME",
         "displayText": "FILENAME",
-        "type": "keyword"
-    },
-    {
-        "text": "FILL",
-        "displayText": "FILL",
         "type": "keyword"
     },
     {
@@ -3228,11 +2923,6 @@
         "snippet": "FIRST(${1:value...})"
     },
     {
-        "text": "FIRST",
-        "displayText": "FIRST",
-        "type": "keyword"
-    },
-    {
         "text": "FIRST-ASYNCH-REQUEST",
         "displayText": "FIRST-ASYNCH-REQUEST",
         "type": "keyword"
@@ -3255,11 +2945,6 @@
     {
         "text": "FIRST-OBJECT",
         "displayText": "FIRST-OBJECT",
-        "type": "keyword"
-    },
-    {
-        "text": "FIRST-OF",
-        "displayText": "FIRST-OF",
         "type": "keyword"
     },
     {
@@ -3481,34 +3166,14 @@
         "snippet": "FRAME-COL(${1:value...})"
     },
     {
-        "text": "FRAME-COL",
-        "displayText": "FRAME-COL",
-        "type": "keyword"
-    },
-    {
         "text": "FRAME-DB",
         "displayText": "FRAME-DB",
         "type": "function"
     },
     {
-        "text": "FRAME-DB",
-        "displayText": "FRAME-DB",
-        "type": "keyword"
-    },
-    {
         "text": "FRAME-DOWN",
         "displayText": "FRAME-DOWN",
         "type": "function"
-    },
-    {
-        "text": "FRAME-DOWN",
-        "displayText": "FRAME-DOWN",
-        "type": "keyword"
-    },
-    {
-        "text": "FRAME-FIELD",
-        "displayText": "FRAME-FIELD",
-        "type": "keyword"
     },
     {
         "text": "FRAME-FIELD",
@@ -3521,29 +3186,14 @@
         "type": "function"
     },
     {
-        "text": "FRAME-FILE",
-        "displayText": "FRAME-FILE",
-        "type": "keyword"
-    },
-    {
         "text": "FRAME-INDE",
         "displayText": "FRAME-INDE",
         "type": "function"
     },
     {
-        "text": "FRAME-INDE",
-        "displayText": "FRAME-INDE",
-        "type": "keyword"
-    },
-    {
         "text": "FRAME-INDEX",
         "displayText": "FRAME-INDEX",
         "type": "function"
-    },
-    {
-        "text": "FRAME-INDEX",
-        "displayText": "FRAME-INDEX",
-        "type": "keyword"
     },
     {
         "text": "FRAME-LINE",
@@ -3552,30 +3202,15 @@
         "snippet": "FRAME-LINE(${1:value...})"
     },
     {
-        "text": "FRAME-LINE",
-        "displayText": "FRAME-LINE",
-        "type": "keyword"
-    },
-    {
         "text": "FRAME-NAME",
         "displayText": "FRAME-NAME",
         "type": "function"
-    },
-    {
-        "text": "FRAME-NAME",
-        "displayText": "FRAME-NAME",
-        "type": "keyword"
     },
     {
         "text": "FRAME-ROW",
         "displayText": "FRAME-ROW()",
         "type": "function",
         "snippet": "FRAME-ROW(${1:value...})"
-    },
-    {
-        "text": "FRAME-ROW",
-        "displayText": "FRAME-ROW",
-        "type": "keyword"
     },
     {
         "text": "FRAME-SPA",
@@ -3590,22 +3225,22 @@
     {
         "text": "FRAME-VAL",
         "displayText": "FRAME-VAL",
-        "type": "keyword"
+        "type": "function"
     },
     {
         "text": "FRAME-VAL",
         "displayText": "FRAME-VAL",
-        "type": "function"
-    },
-    {
-        "text": "FRAME-VALUE",
-        "displayText": "FRAME-VALUE",
         "type": "keyword"
     },
     {
         "text": "FRAME-VALUE",
         "displayText": "FRAME-VALUE",
         "type": "function"
+    },
+    {
+        "text": "FRAME-VALUE",
+        "displayText": "FRAME-VALUE",
+        "type": "keyword"
     },
     {
         "text": "FRAME-X",
@@ -3720,17 +3355,7 @@
     {
         "text": "GATEWAY",
         "displayText": "GATEWAY",
-        "type": "keyword"
-    },
-    {
-        "text": "GATEWAY",
-        "displayText": "GATEWAY",
         "type": "function"
-    },
-    {
-        "text": "GATEWAYS",
-        "displayText": "GATEWAYS",
-        "type": "keyword"
     },
     {
         "text": "GATEWAYS",
@@ -3749,11 +3374,6 @@
     },
     {
         "text": "GENERATE-PBE-KEY",
-        "displayText": "GENERATE-PBE-KEY",
-        "type": "keyword"
-    },
-    {
-        "text": "GENERATE-PBE-KEY",
         "displayText": "GENERATE-PBE-KEY()",
         "type": "function",
         "snippet": "GENERATE-PBE-KEY(${1:value...})"
@@ -3764,16 +3384,6 @@
         "type": "function"
     },
     {
-        "text": "GENERATE-PBE-SALT",
-        "displayText": "GENERATE-PBE-SALT",
-        "type": "keyword"
-    },
-    {
-        "text": "GENERATE-RANDOM-KEY",
-        "displayText": "GENERATE-RANDOM-KEY",
-        "type": "keyword"
-    },
-    {
         "text": "GENERATE-RANDOM-KEY",
         "displayText": "GENERATE-RANDOM-KEY",
         "type": "function"
@@ -3782,11 +3392,6 @@
         "text": "GENERATE-UUID",
         "displayText": "GENERATE-UUID",
         "type": "function"
-    },
-    {
-        "text": "GENERATE-UUID",
-        "displayText": "GENERATE-UUID",
-        "type": "keyword"
     },
     {
         "text": "GET",
@@ -3806,11 +3411,6 @@
     {
         "text": "GET-BINARY-DATA",
         "displayText": "GET-BINARY-DATA",
-        "type": "keyword"
-    },
-    {
-        "text": "GET-BITS",
-        "displayText": "GET-BITS",
         "type": "keyword"
     },
     {
@@ -3846,31 +3446,16 @@
         "snippet": "GET-BYTE(${1:value...})"
     },
     {
-        "text": "GET-BYTE",
-        "displayText": "GET-BYTE",
-        "type": "keyword"
-    },
-    {
         "text": "GET-BYTE-ORDER",
         "displayText": "GET-BYTE-ORDER()",
         "type": "function",
         "snippet": "GET-BYTE-ORDER(${1:value...})"
     },
     {
-        "text": "GET-BYTE-ORDER",
-        "displayText": "GET-BYTE-ORDER",
-        "type": "keyword"
-    },
-    {
         "text": "GET-BYTES",
         "displayText": "GET-BYTES()",
         "type": "function",
         "snippet": "GET-BYTES(${1:value...})"
-    },
-    {
-        "text": "GET-BYTES",
-        "displayText": "GET-BYTES",
-        "type": "keyword"
     },
     {
         "text": "GET-CALLBACK-PROC-CONTEXT",
@@ -3904,30 +3489,15 @@
         "snippet": "GET-CLASS(${1:value...})"
     },
     {
-        "text": "GET-CLASS",
-        "displayText": "GET-CLASS",
-        "type": "keyword"
-    },
-    {
         "text": "GET-CODEPAGE",
         "displayText": "GET-CODEPAGE()",
         "type": "function",
         "snippet": "GET-CODEPAGE(${1:value...})"
     },
     {
-        "text": "GET-CODEPAGE",
-        "displayText": "GET-CODEPAGE",
-        "type": "keyword"
-    },
-    {
         "text": "GET-CODEPAGES",
         "displayText": "GET-CODEPAGES",
         "type": "function"
-    },
-    {
-        "text": "GET-CODEPAGES",
-        "displayText": "GET-CODEPAGES",
-        "type": "keyword"
     },
     {
         "text": "GET-COLLATION",
@@ -3936,20 +3506,10 @@
         "snippet": "GET-COLLATION(${1:value...})"
     },
     {
-        "text": "GET-COLLATION",
-        "displayText": "GET-COLLATION",
-        "type": "keyword"
-    },
-    {
         "text": "GET-COLLATIONS",
         "displayText": "GET-COLLATIONS()",
         "type": "function",
         "snippet": "GET-COLLATIONS(${1:value...})"
-    },
-    {
-        "text": "GET-COLLATIONS",
-        "displayText": "GET-COLLATIONS",
-        "type": "keyword"
     },
     {
         "text": "GET-CONFIG-VALUE",
@@ -3966,16 +3526,6 @@
         "displayText": "GET-DB-CLIENT()",
         "type": "function",
         "snippet": "GET-DB-CLIENT(${1:value...})"
-    },
-    {
-        "text": "GET-DB-CLIENT",
-        "displayText": "GET-DB-CLIENT",
-        "type": "keyword"
-    },
-    {
-        "text": "GET-DOUBLE",
-        "displayText": "GET-DOUBLE",
-        "type": "keyword"
     },
     {
         "text": "GET-DOUBLE",
@@ -4000,19 +3550,9 @@
         "snippet": "GET-EFFECTIVE-TENANT-ID(${1:value...})"
     },
     {
-        "text": "GET-EFFECTIVE-TENANT-ID",
-        "displayText": "GET-EFFECTIVE-TENANT-ID",
-        "type": "keyword"
-    },
-    {
         "text": "GET-EFFECTIVE-TENANT-NAME",
         "displayText": "GET-EFFECTIVE-TENANT-NAME",
         "type": "function"
-    },
-    {
-        "text": "GET-EFFECTIVE-TENANT-NAME",
-        "displayText": "GET-EFFECTIVE-TENANT-NAME",
-        "type": "keyword"
     },
     {
         "text": "GET-ERROR-COLUMN",
@@ -4029,11 +3569,6 @@
         "displayText": "GET-FIELD()",
         "type": "function",
         "snippet": "GET-FIELD(${1:value...})"
-    },
-    {
-        "text": "GET-FIELD",
-        "displayText": "GET-FIELD",
-        "type": "keyword"
     },
     {
         "text": "GET-FILE",
@@ -4067,11 +3602,6 @@
         "snippet": "GET-FLOAT(${1:value...})"
     },
     {
-        "text": "GET-FLOAT",
-        "displayText": "GET-FLOAT",
-        "type": "keyword"
-    },
-    {
         "text": "GET-GREEN",
         "displayText": "GET-GREEN",
         "type": "keyword"
@@ -4096,11 +3626,6 @@
         "displayText": "GET-INT64()",
         "type": "function",
         "snippet": "GET-INT64(${1:value...})"
-    },
-    {
-        "text": "GET-INT64",
-        "displayText": "GET-INT64",
-        "type": "keyword"
     },
     {
         "text": "GET-ITERATION",
@@ -4134,11 +3659,6 @@
         "snippet": "GET-LONG(${1:value...})"
     },
     {
-        "text": "GET-LONG",
-        "displayText": "GET-LONG",
-        "type": "keyword"
-    },
-    {
         "text": "GET-MESSAGE",
         "displayText": "GET-MESSAGE",
         "type": "keyword"
@@ -4158,11 +3678,6 @@
         "displayText": "GET-POINTER-VALUE()",
         "type": "function",
         "snippet": "GET-POINTER-VALUE(${1:value...})"
-    },
-    {
-        "text": "GET-POINTER-VALUE",
-        "displayText": "GET-POINTER-VALUE",
-        "type": "keyword"
     },
     {
         "text": "GET-PREV",
@@ -4216,11 +3731,6 @@
     },
     {
         "text": "GET-SHORT",
-        "displayText": "GET-SHORT",
-        "type": "keyword"
-    },
-    {
-        "text": "GET-SHORT",
         "displayText": "GET-SHORT()",
         "type": "function",
         "snippet": "GET-SHORT(${1:value...})"
@@ -4228,11 +3738,6 @@
     {
         "text": "GET-SIGNATURE",
         "displayText": "GET-SIGNATURE",
-        "type": "keyword"
-    },
-    {
-        "text": "GET-SIZE",
-        "displayText": "GET-SIZE",
         "type": "keyword"
     },
     {
@@ -4246,11 +3751,6 @@
         "displayText": "GET-STRING()",
         "type": "function",
         "snippet": "GET-STRING(${1:value...})"
-    },
-    {
-        "text": "GET-STRING",
-        "displayText": "GET-STRING",
-        "type": "keyword"
     },
     {
         "text": "GET-TAB-ITEM",
@@ -4314,11 +3814,6 @@
     },
     {
         "text": "GET-UNSIGNED-LONG",
-        "displayText": "GET-UNSIGNED-LONG",
-        "type": "keyword"
-    },
-    {
-        "text": "GET-UNSIGNED-LONG",
         "displayText": "GET-UNSIGNED-LONG()",
         "type": "function",
         "snippet": "GET-UNSIGNED-LONG(${1:value...})"
@@ -4330,19 +3825,15 @@
         "snippet": "GET-UNSIGNED-SHORT(${1:value...})"
     },
     {
-        "text": "GET-UNSIGNED-SHORT",
-        "displayText": "GET-UNSIGNED-SHORT",
-        "type": "keyword"
-    },
-    {
         "text": "GET-URI-BY-INDEX",
         "displayText": "GET-URI-BY-INDEX",
         "type": "keyword"
     },
     {
         "text": "GET-VALUE",
-        "displayText": "GET-VALUE",
-        "type": "keyword"
+        "displayText": "GET-VALUE()",
+        "type": "function",
+        "snippet": "GET-VALUE(${1:value...})"
     },
     {
         "text": "GET-VALUE-BY-INDEX",
@@ -4397,19 +3888,9 @@
         "type": "function"
     },
     {
-        "text": "GO-PEND",
-        "displayText": "GO-PEND",
-        "type": "keyword"
-    },
-    {
         "text": "GO-PENDING",
         "displayText": "GO-PENDING",
         "type": "function"
-    },
-    {
-        "text": "GO-PENDING",
-        "displayText": "GO-PENDING",
-        "type": "keyword"
     },
     {
         "text": "GRANT",
@@ -4513,20 +3994,10 @@
         "snippet": "GUID(${1:value...})"
     },
     {
-        "text": "GUID",
-        "displayText": "GUID",
-        "type": "keyword"
-    },
-    {
         "text": "HANDLE",
         "displayText": "HANDLE()",
         "type": "function",
         "snippet": "HANDLE(${1:value...})"
-    },
-    {
-        "text": "HANDLE",
-        "displayText": "HANDLE",
-        "type": "keyword"
     },
     {
         "text": "HANDLER",
@@ -4590,20 +4061,10 @@
         "snippet": "HEX-DECODE(${1:value...})"
     },
     {
-        "text": "HEX-DECODE",
-        "displayText": "HEX-DECODE",
-        "type": "keyword"
-    },
-    {
         "text": "HEX-ENCODE",
         "displayText": "HEX-ENCODE()",
         "type": "function",
         "snippet": "HEX-ENCODE(${1:value...})"
-    },
-    {
-        "text": "HEX-ENCODE",
-        "displayText": "HEX-ENCODE",
-        "type": "keyword"
     },
     {
         "text": "HIDDEN",
@@ -4687,14 +4148,14 @@
     },
     {
         "text": "IF",
-        "displayText": "IF",
-        "type": "function"
-    },
-    {
-        "text": "IF",
         "displayText": "&IF",
         "type": "preprocessor",
         "snippet": "&IF"
+    },
+    {
+        "text": "IF",
+        "displayText": "IF",
+        "type": "function"
     },
     {
         "text": "IMAGE",
@@ -4778,11 +4239,6 @@
     },
     {
         "text": "INDEX",
-        "displayText": "INDEX",
-        "type": "keyword"
-    },
-    {
-        "text": "INDEX",
         "displayText": "INDEX()",
         "type": "function",
         "snippet": "INDEX(${1:value...})"
@@ -4805,11 +4261,6 @@
     {
         "text": "INDICATOR",
         "displayText": "INDICATOR",
-        "type": "keyword"
-    },
-    {
-        "text": "INFO",
-        "displayText": "INFO",
         "type": "keyword"
     },
     {
@@ -4853,11 +4304,6 @@
         "type": "keyword"
     },
     {
-        "text": "INIT",
-        "displayText": "INIT",
-        "type": "keyword"
-    },
-    {
         "text": "INITIAL",
         "displayText": "INITIAL",
         "type": "keyword"
@@ -4890,11 +4336,6 @@
     {
         "text": "INNER-LINES",
         "displayText": "INNER-LINES",
-        "type": "keyword"
-    },
-    {
-        "text": "INPUT",
-        "displayText": "INPUT",
         "type": "keyword"
     },
     {
@@ -4964,8 +4405,9 @@
     },
     {
         "text": "INT",
-        "displayText": "INT",
-        "type": "keyword"
+        "displayText": "INT()",
+        "type": "function",
+        "snippet": "INT(${1:value...})"
     },
     {
         "text": "INT",
@@ -4979,21 +4421,15 @@
         "snippet": "INT(${1:value...})"
     },
     {
-        "text": "INT",
-        "displayText": "INT()",
-        "type": "function",
-        "snippet": "INT(${1:value...})"
+        "text": "INT64",
+        "displayText": "INT64",
+        "type": "datatype"
     },
     {
         "text": "INT64",
         "displayText": "INT64()",
         "type": "function",
         "snippet": "INT64(${1:value...})"
-    },
-    {
-        "text": "INT64",
-        "displayText": "INT64",
-        "type": "datatype"
     },
     {
         "text": "INTEGER",
@@ -5023,11 +4459,6 @@
         "snippet": "INTERVAL(${1:value...})"
     },
     {
-        "text": "INTERVAL",
-        "displayText": "INTERVAL",
-        "type": "keyword"
-    },
-    {
         "text": "INTO",
         "displayText": "INTO",
         "type": "keyword"
@@ -5044,29 +4475,14 @@
     },
     {
         "text": "IS-ATTR",
-        "displayText": "IS-ATTR()",
-        "type": "function",
-        "snippet": "IS-ATTR(${1:value...})"
-    },
-    {
-        "text": "IS-ATTR",
-        "displayText": "IS-ATTR",
-        "type": "keyword"
-    },
-    {
-        "text": "IS-ATTR",
         "displayText": "IS-ATTR",
         "type": "function"
     },
     {
         "text": "IS-ATTR",
-        "displayText": "IS-ATTR",
-        "type": "keyword"
-    },
-    {
-        "text": "IS-ATTR-SPACE",
-        "displayText": "IS-ATTR-SPACE",
-        "type": "keyword"
+        "displayText": "IS-ATTR()",
+        "type": "function",
+        "snippet": "IS-ATTR(${1:value...})"
     },
     {
         "text": "IS-ATTR-SPACE",
@@ -5085,11 +4501,6 @@
     },
     {
         "text": "IS-CODEPAGE-FIXED",
-        "displayText": "IS-CODEPAGE-FIXED",
-        "type": "keyword"
-    },
-    {
-        "text": "IS-CODEPAGE-FIXED",
         "displayText": "IS-CODEPAGE-FIXED()",
         "type": "function",
         "snippet": "IS-CODEPAGE-FIXED(${1:value...})"
@@ -5099,16 +4510,6 @@
         "displayText": "IS-COLUMN-CODEPAGE()",
         "type": "function",
         "snippet": "IS-COLUMN-CODEPAGE(${1:value...})"
-    },
-    {
-        "text": "IS-COLUMN-CODEPAGE",
-        "displayText": "IS-COLUMN-CODEPAGE",
-        "type": "keyword"
-    },
-    {
-        "text": "IS-DB-MULTI-TENANT",
-        "displayText": "IS-DB-MULTI-TENANT",
-        "type": "keyword"
     },
     {
         "text": "IS-DB-MULTI-TENANT",
@@ -5126,11 +4527,6 @@
         "displayText": "IS-LEAD-BYTE()",
         "type": "function",
         "snippet": "IS-LEAD-BYTE(${1:value...})"
-    },
-    {
-        "text": "IS-LEAD-BYTE",
-        "displayText": "IS-LEAD-BYTE",
-        "type": "keyword"
     },
     {
         "text": "IS-OPEN",
@@ -5174,11 +4570,6 @@
         "snippet": "ISO-DATE(${1:value...})"
     },
     {
-        "text": "ISO-DATE",
-        "displayText": "ISO-DATE",
-        "type": "keyword"
-    },
-    {
         "text": "ITEM",
         "displayText": "ITEM",
         "type": "keyword"
@@ -5203,11 +4594,6 @@
         "displayText": "KBLABEL()",
         "type": "function",
         "snippet": "KBLABEL(${1:value...})"
-    },
-    {
-        "text": "KBLABEL",
-        "displayText": "KBLABEL",
-        "type": "keyword"
     },
     {
         "text": "KEEP-CONNECTION-OPEN",
@@ -5266,19 +4652,9 @@
     },
     {
         "text": "KEYCODE",
-        "displayText": "KEYCODE",
-        "type": "keyword"
-    },
-    {
-        "text": "KEYCODE",
         "displayText": "KEYCODE()",
         "type": "function",
         "snippet": "KEYCODE(${1:value...})"
-    },
-    {
-        "text": "KEYFUNC",
-        "displayText": "KEYFUNC",
-        "type": "keyword"
     },
     {
         "text": "KEYFUNC",
@@ -5293,20 +4669,10 @@
         "snippet": "KEYFUNCTION(${1:value...})"
     },
     {
-        "text": "KEYFUNCTION",
-        "displayText": "KEYFUNCTION",
-        "type": "keyword"
-    },
-    {
         "text": "KEYLABEL",
         "displayText": "KEYLABEL()",
         "type": "function",
         "snippet": "KEYLABEL(${1:value...})"
-    },
-    {
-        "text": "KEYLABEL",
-        "displayText": "KEYLABEL",
-        "type": "keyword"
     },
     {
         "text": "KEYS",
@@ -5320,20 +4686,10 @@
         "snippet": "KEYWORD(${1:value...})"
     },
     {
-        "text": "KEYWORD",
-        "displayText": "KEYWORD",
-        "type": "keyword"
-    },
-    {
         "text": "KEYWORD-ALL",
         "displayText": "KEYWORD-ALL()",
         "type": "function",
         "snippet": "KEYWORD-ALL(${1:value...})"
-    },
-    {
-        "text": "KEYWORD-ALL",
-        "displayText": "KEYWORD-ALL",
-        "type": "keyword"
     },
     {
         "text": "LABEL",
@@ -5427,11 +4783,6 @@
         "snippet": "LAST(${1:value...})"
     },
     {
-        "text": "LAST",
-        "displayText": "LAST",
-        "type": "keyword"
-    },
-    {
         "text": "LAST-ASYNCH-REQUEST",
         "displayText": "LAST-ASYNCH-REQUEST",
         "type": "keyword"
@@ -5473,11 +4824,6 @@
     },
     {
         "text": "LAST-OF",
-        "displayText": "LAST-OF",
-        "type": "keyword"
-    },
-    {
-        "text": "LAST-OF",
         "displayText": "LAST-OF()",
         "type": "function",
         "snippet": "LAST-OF(${1:value...})"
@@ -5513,25 +4859,10 @@
         "type": "function"
     },
     {
-        "text": "LASTKEY",
-        "displayText": "LASTKEY",
-        "type": "keyword"
-    },
-    {
-        "text": "LC",
-        "displayText": "LC",
-        "type": "keyword"
-    },
-    {
         "text": "LC",
         "displayText": "LC()",
         "type": "function",
         "snippet": "LC(${1:value...})"
-    },
-    {
-        "text": "LDBNAME",
-        "displayText": "LDBNAME",
-        "type": "keyword"
     },
     {
         "text": "LDBNAME",
@@ -5561,11 +4892,6 @@
     },
     {
         "text": "LEFT-TRIM",
-        "displayText": "LEFT-TRIM",
-        "type": "keyword"
-    },
-    {
-        "text": "LEFT-TRIM",
         "displayText": "LEFT-TRIM()",
         "type": "function",
         "snippet": "LEFT-TRIM(${1:value...})"
@@ -5579,11 +4905,6 @@
     {
         "text": "LENGTH",
         "displayText": "LENGTH",
-        "type": "keyword"
-    },
-    {
-        "text": "LIBRARY",
-        "displayText": "LIBRARY",
         "type": "keyword"
     },
     {
@@ -5609,11 +4930,6 @@
     },
     {
         "text": "LINE-COUNT",
-        "displayText": "LINE-COUNT",
-        "type": "keyword"
-    },
-    {
-        "text": "LINE-COUNT",
         "displayText": "LINE-COUNT()",
         "type": "function",
         "snippet": "LINE-COUNT(${1:value...})"
@@ -5625,20 +4941,10 @@
         "snippet": "LINE-COUNTER(${1:value...})"
     },
     {
-        "text": "LINE-COUNTER",
-        "displayText": "LINE-COUNTER",
-        "type": "keyword"
-    },
-    {
         "text": "LIST-EVENTS",
         "displayText": "LIST-EVENTS()",
         "type": "function",
         "snippet": "LIST-EVENTS(${1:value...})"
-    },
-    {
-        "text": "LIST-EVENTS",
-        "displayText": "LIST-EVENTS",
-        "type": "keyword"
     },
     {
         "text": "LIST-ITEM-PAIRS",
@@ -5657,11 +4963,6 @@
     },
     {
         "text": "LIST-QUERY-ATTRS",
-        "displayText": "LIST-QUERY-ATTRS",
-        "type": "keyword"
-    },
-    {
-        "text": "LIST-QUERY-ATTRS",
         "displayText": "LIST-QUERY-ATTRS()",
         "type": "function",
         "snippet": "LIST-QUERY-ATTRS(${1:value...})"
@@ -5671,16 +4972,6 @@
         "displayText": "LIST-SET-ATTRS()",
         "type": "function",
         "snippet": "LIST-SET-ATTRS(${1:value...})"
-    },
-    {
-        "text": "LIST-SET-ATTRS",
-        "displayText": "LIST-SET-ATTRS",
-        "type": "keyword"
-    },
-    {
-        "text": "LIST-WIDGETS",
-        "displayText": "LIST-WIDGETS",
-        "type": "keyword"
     },
     {
         "text": "LIST-WIDGETS",
@@ -5809,22 +5100,6 @@
         "type": "function"
     },
     {
-        "text": "LOCKED",
-        "displayText": "LOCKED",
-        "type": "keyword"
-    },
-    {
-        "text": "LOG",
-        "displayText": "LOG()",
-        "type": "function",
-        "snippet": "LOG(${1:value...})"
-    },
-    {
-        "text": "LOG",
-        "displayText": "LOG",
-        "type": "keyword"
-    },
-    {
         "text": "LOG",
         "displayText": "LOG()",
         "type": "function",
@@ -5834,6 +5109,12 @@
         "text": "LOG",
         "displayText": "LOG",
         "type": "datatype"
+    },
+    {
+        "text": "LOG",
+        "displayText": "LOG()",
+        "type": "function",
+        "snippet": "LOG(${1:value...})"
     },
     {
         "text": "LOG-AUDIT-EVENT",
@@ -5879,11 +5160,6 @@
     {
         "text": "LOOKAHEAD",
         "displayText": "LOOKAHEAD",
-        "type": "keyword"
-    },
-    {
-        "text": "LOOKUP",
-        "displayText": "LOOKUP",
         "type": "keyword"
     },
     {
@@ -5975,11 +5251,6 @@
     {
         "text": "MATCHES",
         "displayText": "MATCHES",
-        "type": "keyword"
-    },
-    {
-        "text": "MAX",
-        "displayText": "MAX",
         "type": "keyword"
     },
     {
@@ -6085,11 +5356,6 @@
     },
     {
         "text": "MAXIMUM",
-        "displayText": "MAXIMUM",
-        "type": "keyword"
-    },
-    {
-        "text": "MAXIMUM",
         "displayText": "MAXIMUM()",
         "type": "function",
         "snippet": "MAXIMUM(${1:value...})"
@@ -6101,19 +5367,9 @@
     },
     {
         "text": "MD5-DIGEST",
-        "displayText": "MD5-DIGEST",
-        "type": "keyword"
-    },
-    {
-        "text": "MD5-DIGEST",
         "displayText": "MD5-DIGEST()",
         "type": "function",
         "snippet": "MD5-DIGEST(${1:value...})"
-    },
-    {
-        "text": "MEMBER",
-        "displayText": "MEMBER",
-        "type": "keyword"
     },
     {
         "text": "MEMBER",
@@ -6189,11 +5445,6 @@
     },
     {
         "text": "MESSAGE-DIGEST",
-        "displayText": "MESSAGE-DIGEST",
-        "type": "keyword"
-    },
-    {
-        "text": "MESSAGE-DIGEST",
         "displayText": "MESSAGE-DIGEST()",
         "type": "function",
         "snippet": "MESSAGE-DIGEST(${1:value...})"
@@ -6202,11 +5453,6 @@
         "text": "MESSAGE-LINES",
         "displayText": "MESSAGE-LINES",
         "type": "function"
-    },
-    {
-        "text": "MESSAGE-LINES",
-        "displayText": "MESSAGE-LINES",
-        "type": "keyword"
     },
     {
         "text": "METHOD",
@@ -6223,11 +5469,6 @@
         "displayText": "MIN()",
         "type": "function",
         "snippet": "MIN(${1:value...})"
-    },
-    {
-        "text": "MIN",
-        "displayText": "MIN",
-        "type": "keyword"
     },
     {
         "text": "MIN-BUTTON",
@@ -6316,11 +5557,6 @@
         "snippet": "MINIMUM(${1:value...})"
     },
     {
-        "text": "MINIMUM",
-        "displayText": "MINIMUM",
-        "type": "keyword"
-    },
-    {
         "text": "MOD",
         "displayText": "MOD",
         "type": "keyword"
@@ -6340,11 +5576,6 @@
         "displayText": "MONTH()",
         "type": "function",
         "snippet": "MONTH(${1:value...})"
-    },
-    {
-        "text": "MONTH",
-        "displayText": "MONTH",
-        "type": "keyword"
     },
     {
         "text": "MOUSE",
@@ -6428,11 +5659,6 @@
     },
     {
         "text": "MTIME",
-        "displayText": "MTIME",
-        "type": "keyword"
-    },
-    {
-        "text": "MTIME",
         "displayText": "MTIME()",
         "type": "function",
         "snippet": "MTIME(${1:value...})"
@@ -6505,12 +5731,12 @@
     {
         "text": "NEW",
         "displayText": "NEW",
-        "type": "function"
+        "type": "keyword"
     },
     {
         "text": "NEW",
         "displayText": "NEW",
-        "type": "keyword"
+        "type": "function"
     },
     {
         "text": "NEW-INSTANCE",
@@ -6555,11 +5781,6 @@
     {
         "text": "NEXT-TAB-ITEM",
         "displayText": "NEXT-TAB-ITEM",
-        "type": "keyword"
-    },
-    {
-        "text": "NEXT-VALUE",
-        "displayText": "NEXT-VALUE",
         "type": "keyword"
     },
     {
@@ -6865,11 +6086,6 @@
         "snippet": "NORMALIZE(${1:value...})"
     },
     {
-        "text": "NORMALIZE",
-        "displayText": "NORMALIZE",
-        "type": "keyword"
-    },
-    {
         "text": "NOT",
         "displayText": "NOT",
         "type": "keyword"
@@ -6885,11 +6101,6 @@
         "type": "function"
     },
     {
-        "text": "NOW",
-        "displayText": "NOW",
-        "type": "keyword"
-    },
-    {
         "text": "NULL",
         "displayText": "NULL",
         "type": "keyword"
@@ -6898,16 +6109,6 @@
         "text": "NUM-ALI",
         "displayText": "NUM-ALI",
         "type": "function"
-    },
-    {
-        "text": "NUM-ALI",
-        "displayText": "NUM-ALI",
-        "type": "keyword"
-    },
-    {
-        "text": "NUM-ALIASES",
-        "displayText": "NUM-ALIASES",
-        "type": "keyword"
     },
     {
         "text": "NUM-ALIASES",
@@ -6947,11 +6148,6 @@
     {
         "text": "NUM-DBS",
         "displayText": "NUM-DBS",
-        "type": "keyword"
-    },
-    {
-        "text": "NUM-DBS",
-        "displayText": "NUM-DBS",
         "type": "function"
     },
     {
@@ -6964,11 +6160,6 @@
         "displayText": "NUM-ENTRIES()",
         "type": "function",
         "snippet": "NUM-ENTRIES(${1:value...})"
-    },
-    {
-        "text": "NUM-ENTRIES",
-        "displayText": "NUM-ENTRIES",
-        "type": "keyword"
     },
     {
         "text": "NUM-FIELDS",
@@ -7023,11 +6214,6 @@
     {
         "text": "NUM-REPLACED",
         "displayText": "NUM-REPLACED",
-        "type": "keyword"
-    },
-    {
-        "text": "NUM-RESULTS",
-        "displayText": "NUM-RESULTS",
         "type": "keyword"
     },
     {
@@ -7142,11 +6328,6 @@
         "type": "function"
     },
     {
-        "text": "OPSYS",
-        "displayText": "OPSYS",
-        "type": "keyword"
-    },
-    {
         "text": "OPTION",
         "displayText": "OPTION",
         "type": "keyword"
@@ -7202,40 +6383,20 @@
         "type": "function"
     },
     {
-        "text": "OS-DRIVE",
-        "displayText": "OS-DRIVE",
-        "type": "keyword"
-    },
-    {
         "text": "OS-DRIVES",
         "displayText": "OS-DRIVES",
         "type": "function"
     },
     {
-        "text": "OS-DRIVES",
-        "displayText": "OS-DRIVES",
-        "type": "keyword"
-    },
-    {
         "text": "OS-ERROR",
         "displayText": "OS-ERROR",
         "type": "function"
-    },
-    {
-        "text": "OS-ERROR",
-        "displayText": "OS-ERROR",
-        "type": "keyword"
     },
     {
         "text": "OS-GETENV",
         "displayText": "OS-GETENV()",
         "type": "function",
         "snippet": "OS-GETENV(${1:value...})"
-    },
-    {
-        "text": "OS-GETENV",
-        "displayText": "OS-GETENV",
-        "type": "keyword"
     },
     {
         "text": "OS-RENAME",
@@ -7294,16 +6455,6 @@
         "snippet": "PAGE-NUM(${1:value...})"
     },
     {
-        "text": "PAGE-NUM",
-        "displayText": "PAGE-NUM",
-        "type": "keyword"
-    },
-    {
-        "text": "PAGE-NUMBER",
-        "displayText": "PAGE-NUMBER",
-        "type": "keyword"
-    },
-    {
         "text": "PAGE-NUMBER",
         "displayText": "PAGE-NUMBER()",
         "type": "function",
@@ -7314,11 +6465,6 @@
         "displayText": "PAGE-SIZE()",
         "type": "function",
         "snippet": "PAGE-SIZE(${1:value...})"
-    },
-    {
-        "text": "PAGE-SIZE",
-        "displayText": "PAGE-SIZE",
-        "type": "keyword"
     },
     {
         "text": "PAGE-TOP",
@@ -7398,11 +6544,6 @@
     {
         "text": "PBE-KEY-ROUNDS",
         "displayText": "PBE-KEY-ROUNDS",
-        "type": "keyword"
-    },
-    {
-        "text": "PDBNAME",
-        "displayText": "PDBNAME",
         "type": "keyword"
     },
     {
@@ -7609,17 +6750,7 @@
     {
         "text": "PROC-HA",
         "displayText": "PROC-HA",
-        "type": "keyword"
-    },
-    {
-        "text": "PROC-HA",
-        "displayText": "PROC-HA",
         "type": "function"
-    },
-    {
-        "text": "PROC-HANDLE",
-        "displayText": "PROC-HANDLE",
-        "type": "keyword"
     },
     {
         "text": "PROC-HANDLE",
@@ -7632,19 +6763,9 @@
         "type": "function"
     },
     {
-        "text": "PROC-ST",
-        "displayText": "PROC-ST",
-        "type": "keyword"
-    },
-    {
         "text": "PROC-STATUS",
         "displayText": "PROC-STATUS",
         "type": "function"
-    },
-    {
-        "text": "PROC-STATUS",
-        "displayText": "PROC-STATUS",
-        "type": "keyword"
     },
     {
         "text": "PROC-TEXT",
@@ -7692,11 +6813,6 @@
         "type": "function"
     },
     {
-        "text": "PROCESS-ARCHITECTURE",
-        "displayText": "PROCESS-ARCHITECTURE",
-        "type": "keyword"
-    },
-    {
         "text": "PROFILER",
         "displayText": "PROFILER",
         "type": "keyword"
@@ -7705,16 +6821,6 @@
         "text": "PROGRAM-NAME",
         "displayText": "PROGRAM-NAME",
         "type": "function"
-    },
-    {
-        "text": "PROGRAM-NAME",
-        "displayText": "PROGRAM-NAME",
-        "type": "keyword"
-    },
-    {
-        "text": "PROGRESS",
-        "displayText": "PROGRESS",
-        "type": "keyword"
     },
     {
         "text": "PROGRESS",
@@ -7749,22 +6855,22 @@
     {
         "text": "PROMSGS",
         "displayText": "PROMSGS",
-        "type": "keyword"
+        "type": "function"
     },
     {
         "text": "PROMSGS",
         "displayText": "PROMSGS",
-        "type": "function"
-    },
-    {
-        "text": "PROPATH",
-        "displayText": "PROPATH",
         "type": "keyword"
     },
     {
         "text": "PROPATH",
         "displayText": "PROPATH",
         "type": "function"
+    },
+    {
+        "text": "PROPATH",
+        "displayText": "PROPATH",
+        "type": "keyword"
     },
     {
         "text": "PROPERTY",
@@ -7783,20 +6889,10 @@
         "snippet": "PROVERS(${1:value...})"
     },
     {
-        "text": "PROVERS",
-        "displayText": "PROVERS",
-        "type": "keyword"
-    },
-    {
         "text": "PROVERSION",
         "displayText": "PROVERSION()",
         "type": "function",
         "snippet": "PROVERSION(${1:value...})"
-    },
-    {
-        "text": "PROVERSION",
-        "displayText": "PROVERSION",
-        "type": "keyword"
     },
     {
         "text": "PROXY",
@@ -7925,11 +7021,6 @@
         "snippet": "QUERY-OFF-END(${1:value...})"
     },
     {
-        "text": "QUERY-OFF-END",
-        "displayText": "QUERY-OFF-END",
-        "type": "keyword"
-    },
-    {
         "text": "QUERY-OPEN",
         "displayText": "QUERY-OPEN",
         "type": "keyword"
@@ -7961,20 +7052,10 @@
         "snippet": "QUOTER(${1:value...})"
     },
     {
-        "text": "QUOTER",
-        "displayText": "QUOTER",
-        "type": "keyword"
-    },
-    {
         "text": "R-INDEX",
         "displayText": "R-INDEX()",
         "type": "function",
         "snippet": "R-INDEX(${1:value...})"
-    },
-    {
-        "text": "R-INDEX",
-        "displayText": "R-INDEX",
-        "type": "keyword"
     },
     {
         "text": "RADIO-BUTTONS",
@@ -7991,11 +7072,6 @@
         "displayText": "RANDOM()",
         "type": "function",
         "snippet": "RANDOM(${1:value...})"
-    },
-    {
-        "text": "RANDOM",
-        "displayText": "RANDOM",
-        "type": "keyword"
     },
     {
         "text": "RAW",
@@ -8070,11 +7146,6 @@
         "snippet": "RECID(${1:value...})"
     },
     {
-        "text": "RECID",
-        "displayText": "RECID",
-        "type": "keyword"
-    },
-    {
         "text": "RECORD",
         "displayText": "RECORD",
         "type": "keyword"
@@ -8084,11 +7155,6 @@
         "displayText": "RECORD-LENGTH()",
         "type": "function",
         "snippet": "RECORD-LENGTH(${1:value...})"
-    },
-    {
-        "text": "RECORD-LENGTH",
-        "displayText": "RECORD-LENGTH",
-        "type": "keyword"
     },
     {
         "text": "RECT",
@@ -8137,20 +7203,10 @@
         "snippet": "REJECTED(${1:value...})"
     },
     {
-        "text": "REJECTED",
-        "displayText": "REJECTED",
-        "type": "keyword"
-    },
-    {
         "text": "RELATION-FIELDS",
         "displayText": "RELATION-FIELDS() NESTED",
         "type": "function",
         "snippet": "RELATION-FIELDS(${1:field-name}, ${2:field-name}) NESTED"
-    },
-    {
-        "text": "RELATION-FIELDS",
-        "displayText": "RELATION-FIELDS",
-        "type": "keyword"
     },
     {
         "text": "RELEASE",
@@ -8179,19 +7235,14 @@
     },
     {
         "text": "REPLACE",
+        "description": "(CHAR) target = REPLACE(source,from,to)",
+        "snippet": "REPLACE(${1:source-string},${2:from-string},${3:to-string})"
+    },
+    {
+        "text": "REPLACE",
         "displayText": "REPLACE()",
         "type": "function",
         "snippet": "REPLACE(${1:value...})"
-    },
-    {
-        "text": "REPLACE",
-        "displayText": "REPLACE",
-        "type": "keyword"
-    },
-    {
-        "text": "REPLACE",
-        "description": "(CHAR) target = REPLACE(source,from,to)",
-        "snippet": "REPLACE(${1:source-string},${2:from-string},${3:to-string})"
     },
     {
         "text": "REPLACE-SELECTION-TEXT",
@@ -8289,11 +7340,6 @@
         "type": "function"
     },
     {
-        "text": "RETRY",
-        "displayText": "RETRY",
-        "type": "keyword"
-    },
-    {
         "text": "RETRY-CANCEL",
         "displayText": "RETRY-CANCEL",
         "type": "keyword"
@@ -8331,17 +7377,7 @@
     {
         "text": "RETURN-VAL",
         "displayText": "RETURN-VAL",
-        "type": "keyword"
-    },
-    {
-        "text": "RETURN-VAL",
-        "displayText": "RETURN-VAL",
         "type": "function"
-    },
-    {
-        "text": "RETURN-VALUE",
-        "displayText": "RETURN-VALUE",
-        "type": "keyword"
     },
     {
         "text": "RETURN-VALUE",
@@ -8375,11 +7411,6 @@
     },
     {
         "text": "RGB-VALUE",
-        "displayText": "RGB-VALUE",
-        "type": "keyword"
-    },
-    {
-        "text": "RGB-VALUE",
         "displayText": "RGB-VALUE()",
         "type": "function",
         "snippet": "RGB-VALUE(${1:value...})"
@@ -8391,11 +7422,6 @@
     },
     {
         "text": "RIGHT-TRIM",
-        "displayText": "RIGHT-TRIM",
-        "type": "keyword"
-    },
-    {
-        "text": "RIGHT-TRIM",
         "displayText": "RIGHT-TRIM()",
         "type": "function",
         "snippet": "RIGHT-TRIM(${1:value...})"
@@ -8403,11 +7429,6 @@
     {
         "text": "ROLES",
         "displayText": "ROLES",
-        "type": "keyword"
-    },
-    {
-        "text": "ROUND",
-        "displayText": "ROUND",
         "type": "keyword"
     },
     {
@@ -8453,19 +7474,9 @@
     },
     {
         "text": "ROW-STATE",
-        "displayText": "ROW-STATE",
-        "type": "keyword"
-    },
-    {
-        "text": "ROW-STATE",
         "displayText": "ROW-STATE()",
         "type": "function",
         "snippet": "ROW-STATE(${1:value...})"
-    },
-    {
-        "text": "ROWID",
-        "displayText": "ROWID",
-        "type": "keyword"
     },
     {
         "text": "ROWID",
@@ -8632,11 +7643,6 @@
     },
     {
         "text": "SCREEN-LINES",
-        "displayText": "SCREEN-LINES",
-        "type": "keyword"
-    },
-    {
-        "text": "SCREEN-LINES",
         "displayText": "SCREEN-LINES()",
         "type": "function",
         "snippet": "SCREEN-LINES(${1:value...})"
@@ -8733,11 +7739,6 @@
     },
     {
         "text": "SDBNAME",
-        "displayText": "SDBNAME",
-        "type": "keyword"
-    },
-    {
-        "text": "SDBNAME",
         "displayText": "SDBNAME()",
         "type": "function",
         "snippet": "SDBNAME(${1:value...})"
@@ -8750,11 +7751,6 @@
     {
         "text": "SEAL-TIMESTAMP",
         "displayText": "SEAL-TIMESTAMP",
-        "type": "keyword"
-    },
-    {
-        "text": "SEARCH",
-        "displayText": "SEARCH",
         "type": "keyword"
     },
     {
@@ -8785,14 +7781,14 @@
     },
     {
         "text": "SEEK",
-        "displayText": "SEEK()",
-        "type": "function",
-        "snippet": "SEEK(${1:value...})"
+        "displayText": "SEEK",
+        "type": "keyword"
     },
     {
         "text": "SEEK",
-        "displayText": "SEEK",
-        "type": "keyword"
+        "displayText": "SEEK()",
+        "type": "function",
+        "snippet": "SEEK(${1:value...})"
     },
     {
         "text": "SELECT",
@@ -9031,11 +8027,6 @@
         "snippet": "SET-DB-CLIENT(${1:value...})"
     },
     {
-        "text": "SET-DB-CLIENT",
-        "displayText": "SET-DB-CLIENT",
-        "type": "keyword"
-    },
-    {
         "text": "SET-DYNAMIC",
         "displayText": "SET-DYNAMIC",
         "type": "keyword"
@@ -9045,11 +8036,6 @@
         "displayText": "SET-EFFECTIVE-TENANT()",
         "type": "function",
         "snippet": "SET-EFFECTIVE-TENANT(${1:value...})"
-    },
-    {
-        "text": "SET-EFFECTIVE-TENANT",
-        "displayText": "SET-EFFECTIVE-TENANT",
-        "type": "keyword"
     },
     {
         "text": "SET-EVENT-MANAGER-OPTION",
@@ -9148,31 +8134,16 @@
         "snippet": "SETUSER(${1:value...})"
     },
     {
-        "text": "SETUSER",
-        "displayText": "SETUSER",
-        "type": "keyword"
-    },
-    {
         "text": "SETUSERID",
         "displayText": "SETUSERID()",
         "type": "function",
         "snippet": "SETUSERID(${1:value...})"
     },
     {
-        "text": "SETUSERID",
-        "displayText": "SETUSERID",
-        "type": "keyword"
-    },
-    {
         "text": "SHA1-DIGEST",
         "displayText": "SHA1-DIGEST()",
         "type": "function",
         "snippet": "SHA1-DIGEST(${1:value...})"
-    },
-    {
-        "text": "SHA1-DIGEST",
-        "displayText": "SHA1-DIGEST",
-        "type": "keyword"
     },
     {
         "text": "SHARE",
@@ -9365,20 +8336,10 @@
         "type": "function"
     },
     {
-        "text": "SQRT",
-        "displayText": "SQRT",
-        "type": "keyword"
-    },
-    {
         "text": "SSL-SERVER-NAME",
         "displayText": "SSL-SERVER-NAME()",
         "type": "function",
         "snippet": "SSL-SERVER-NAME(${1:value...})"
-    },
-    {
-        "text": "SSL-SERVER-NAME",
-        "displayText": "SSL-SERVER-NAME",
-        "type": "keyword"
     },
     {
         "text": "STANDALONE",
@@ -9511,11 +8472,6 @@
         "type": "function"
     },
     {
-        "text": "STRING",
-        "displayText": "STRING",
-        "type": "keyword"
-    },
-    {
         "text": "STRING-VALUE",
         "displayText": "STRING-VALUE",
         "type": "keyword"
@@ -9577,11 +8533,6 @@
     },
     {
         "text": "SUBST",
-        "displayText": "SUBST",
-        "type": "keyword"
-    },
-    {
-        "text": "SUBST",
         "displayText": "SUBST()",
         "type": "function",
         "snippet": "SUBST(${1:value...})"
@@ -9593,8 +8544,8 @@
         "snippet": "SUBSTITUTE(${1:value...})"
     },
     {
-        "text": "SUBSTITUTE",
-        "displayText": "SUBSTITUTE",
+        "text": "SUBSTR",
+        "displayText": "SUBSTR",
         "type": "keyword"
     },
     {
@@ -9604,20 +8555,15 @@
         "snippet": "SUBSTR(${1:value...})"
     },
     {
-        "text": "SUBSTR",
-        "displayText": "SUBSTR",
-        "type": "keyword"
+        "text": "SUBSTRING",
+        "displayText": "SUBSTRING()",
+        "type": "function",
+        "snippet": "SUBSTRING(${1:value...})"
     },
     {
         "text": "SUBSTRING",
         "displayText": "SUBSTRING",
         "type": "keyword"
-    },
-    {
-        "text": "SUBSTRING",
-        "displayText": "SUBSTRING()",
-        "type": "function",
-        "snippet": "SUBSTRING(${1:value...})"
     },
     {
         "text": "SUBTYPE",
@@ -9772,30 +8718,15 @@
     },
     {
         "text": "TENANT-ID",
-        "displayText": "TENANT-ID",
-        "type": "keyword"
-    },
-    {
-        "text": "TENANT-ID",
         "displayText": "TENANT-ID()",
         "type": "function",
         "snippet": "TENANT-ID(${1:value...})"
     },
     {
         "text": "TENANT-NAME",
-        "displayText": "TENANT-NAME",
-        "type": "keyword"
-    },
-    {
-        "text": "TENANT-NAME",
         "displayText": "TENANT-NAME()",
         "type": "function",
         "snippet": "TENANT-NAME(${1:value...})"
-    },
-    {
-        "text": "TENANT-NAME-TO-ID",
-        "displayText": "TENANT-NAME-TO-ID",
-        "type": "keyword"
     },
     {
         "text": "TENANT-NAME-TO-ID",
@@ -9821,12 +8752,12 @@
     {
         "text": "TERMINAL",
         "displayText": "TERMINAL",
-        "type": "keyword"
+        "type": "function"
     },
     {
         "text": "TERMINAL",
         "displayText": "TERMINAL",
-        "type": "function"
+        "type": "keyword"
     },
     {
         "text": "TERMINATE",
@@ -9855,14 +8786,14 @@
     },
     {
         "text": "THEN",
-        "displayText": "&THEN",
-        "type": "preprocessor",
-        "snippet": "&THEN"
+        "displayText": "THEN",
+        "type": "function"
     },
     {
         "text": "THEN",
-        "displayText": "THEN",
-        "type": "function"
+        "displayText": "&THEN",
+        "type": "preprocessor",
+        "snippet": "&THEN"
     },
     {
         "text": "THIS-PROCEDURE",
@@ -9902,11 +8833,6 @@
     {
         "text": "TIME",
         "displayText": "TIME",
-        "type": "keyword"
-    },
-    {
-        "text": "TIME",
-        "displayText": "TIME",
         "type": "function"
     },
     {
@@ -9919,11 +8845,6 @@
         "displayText": "TIMEZONE()",
         "type": "function",
         "snippet": "TIMEZONE(${1:value...})"
-    },
-    {
-        "text": "TIMEZONE",
-        "displayText": "TIMEZONE",
-        "type": "keyword"
     },
     {
         "text": "TITLE",
@@ -9980,16 +8901,6 @@
         "displayText": "TO-ROWID()",
         "type": "function",
         "snippet": "TO-ROWID(${1:value...})"
-    },
-    {
-        "text": "TO-ROWID",
-        "displayText": "TO-ROWID",
-        "type": "keyword"
-    },
-    {
-        "text": "TODAY",
-        "displayText": "TODAY",
-        "type": "keyword"
     },
     {
         "text": "TODAY",
@@ -10049,11 +8960,6 @@
     {
         "text": "TRANSACTION",
         "displayText": "TRANSACTION",
-        "type": "keyword"
-    },
-    {
-        "text": "TRANSACTION",
-        "displayText": "TRANSACTION",
         "type": "function"
     },
     {
@@ -10078,11 +8984,6 @@
     },
     {
         "text": "TRIM",
-        "displayText": "TRIM",
-        "type": "keyword"
-    },
-    {
-        "text": "TRIM",
         "displayText": "TRIM()",
         "type": "function",
         "snippet": "TRIM(${1:value...})"
@@ -10099,20 +9000,10 @@
         "snippet": "TRUNC(${1:value...})"
     },
     {
-        "text": "TRUNC",
-        "displayText": "TRUNC",
-        "type": "keyword"
-    },
-    {
         "text": "TRUNCATE",
         "displayText": "TRUNCATE()",
         "type": "function",
         "snippet": "TRUNCATE(${1:value...})"
-    },
-    {
-        "text": "TRUNCATE",
-        "displayText": "TRUNCATE",
-        "type": "keyword"
     },
     {
         "text": "TYPE",
@@ -10124,16 +9015,6 @@
         "displayText": "TYPE-OF()",
         "type": "function",
         "snippet": "TYPE-OF(${1:value...})"
-    },
-    {
-        "text": "TYPE-OF",
-        "displayText": "TYPE-OF",
-        "type": "keyword"
-    },
-    {
-        "text": "UNBOX",
-        "displayText": "UNBOX",
-        "type": "keyword"
     },
     {
         "text": "UNBOX",
@@ -10330,11 +9211,6 @@
         "snippet": "USERID(${1:value...})"
     },
     {
-        "text": "USERID",
-        "displayText": "USERID",
-        "type": "keyword"
-    },
-    {
         "text": "USING",
         "displayText": "USING",
         "type": "keyword"
@@ -10356,16 +9232,6 @@
         "snippet": "VALID-EVENT(${1:value...})"
     },
     {
-        "text": "VALID-EVENT",
-        "displayText": "VALID-EVENT",
-        "type": "keyword"
-    },
-    {
-        "text": "VALID-HANDLE",
-        "displayText": "VALID-HANDLE",
-        "type": "keyword"
-    },
-    {
         "text": "VALID-HANDLE",
         "displayText": "VALID-HANDLE()",
         "type": "function",
@@ -10376,11 +9242,6 @@
         "displayText": "VALID-OBJECT()",
         "type": "function",
         "snippet": "VALID-OBJECT(${1:value...})"
-    },
-    {
-        "text": "VALID-OBJECT",
-        "displayText": "VALID-OBJECT",
-        "type": "keyword"
     },
     {
         "text": "VALIDATE",
@@ -10545,11 +9406,6 @@
     },
     {
         "text": "WEEKDAY",
-        "displayText": "WEEKDAY",
-        "type": "keyword"
-    },
-    {
-        "text": "WEEKDAY",
         "displayText": "WEEKDAY()",
         "type": "function",
         "snippet": "WEEKDAY(${1:value...})"
@@ -10589,11 +9445,6 @@
         "displayText": "WIDGET-HANDLE()",
         "type": "function",
         "snippet": "WIDGET-HANDLE(${1:value...})"
-    },
-    {
-        "text": "WIDGET-HANDLE",
-        "displayText": "WIDGET-HANDLE",
-        "type": "keyword"
     },
     {
         "text": "WIDGET-ID",
@@ -10888,11 +9739,6 @@
     {
         "text": "Y-OF",
         "displayText": "Y-OF",
-        "type": "keyword"
-    },
-    {
-        "text": "YEAR",
-        "displayText": "YEAR",
         "type": "keyword"
     },
     {
