@@ -12,8 +12,6 @@ module.exports =
 class AblProvider
 	selector: '.source.abl'
 	disableForSelector: '.source.abl .comment'
-	inclusionPriority: 1
-	excludeLowerPriority: true
 
 	getSuggestions: ({editor, bufferPosition, scopeDescriptor, prefix}) ->
 		new Promise (resolve) ->
