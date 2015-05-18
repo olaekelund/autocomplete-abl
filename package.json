@@ -1,7 +1,7 @@
 {
 	"name": "autocomplete-abl",
 	"main": "./lib/autocomplete-abl",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Autocomplete-plus for OpenEdge ABL",
 	"homepage": "https://github.com/tomasgreen/autocomplete-abl",
 	"repository": {
