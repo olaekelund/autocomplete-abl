@@ -18,8 +18,15 @@ class AblProvider
 			vls = []
 			#for value in completions when -1 isnt (value.text.toLowerCase()).indexOf prefix
 			#for value in completions when 0 is (value.text.toLowerCase()).indexOf prefix
-
+			typeAttribMethod = false
+			for scope in scopeDescriptor.scopes when -1 isnt scope.indexOf 'attribute' or -1 isnt scope.indexOf 'method'
+				typeAttribMethod = true
 			for value in completions when firstCharsEqual(prefix,value.text)
 				value.replacementPrefix = prefix
-				vls.push(value)
+				if typeAttribMethod
+					if value.type is 'attribute' or value.type is 'method'
+						vls.push(value)
+				else
+					vls.push(value)
+
 			resolve(vls)
