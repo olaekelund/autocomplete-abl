@@ -1,57 +1,5 @@
 [
     {
-        "text": "&ELSE",
-        "type": "preprocessor"
-    },
-    {
-        "text": "&ELSEIF",
-        "type": "preprocessor"
-    },
-    {
-        "text": "&ENDIF",
-        "type": "preprocessor"
-    },
-    {
-        "text": "&GLOB",
-        "type": "preprocessor"
-    },
-    {
-        "text": "&GLOBAL-DEFINE",
-        "type": "preprocessor"
-    },
-    {
-        "text": "&IF",
-        "type": "preprocessor"
-    },
-    {
-        "text": "&MESSAGE",
-        "type": "preprocessor"
-    },
-    {
-        "text": "&SCOP",
-        "type": "preprocessor"
-    },
-    {
-        "text": "&SCOPED-DEFINE",
-        "type": "preprocessor"
-    },
-    {
-        "text": "&THEN",
-        "type": "preprocessor"
-    },
-    {
-        "text": "&UNDEF",
-        "type": "preprocessor"
-    },
-    {
-        "text": "&UNDEFINE",
-        "type": "preprocessor"
-    },
-    {
-        "text": "&WEBSTREAM",
-        "type": "preprocessor"
-    },
-    {
         "text": "ABS",
         "type": "function"
     },
@@ -291,11 +239,11 @@
     },
     {
         "text": "AMBIGUOUS",
-        "type": "attribute"
+        "type": "function"
     },
     {
         "text": "AMBIGUOUS",
-        "type": "function"
+        "type": "attribute"
     },
     {
         "text": "ANALYZ",
@@ -306,8 +254,17 @@
         "type": "keyword"
     },
     {
-        "text": "AND",
-        "type": "keyword"
+        "text": "ANALYZE-RESUME",
+        "displayText": "&ANALYZE-RESUME",
+        "type": "preprocessor"
+    },
+    {
+        "text": "ANALYZE-SUSPEND",
+        "displayText": "&ANALYZE-SUSPEND",
+        "type": "preprocessor"
+    },
+    {
+        "text": "AND"
     },
     {
         "text": "ANSI-ONLY",
@@ -354,6 +311,10 @@
         "type": "method"
     },
     {
+        "text": "APPPROGRA",
+        "type": "variable"
+    },
+    {
         "text": "APPSERVER-INFO",
         "type": "attribute"
     },
@@ -364,6 +325,10 @@
     {
         "text": "APPSERVER-USERID",
         "type": "attribute"
+    },
+    {
+        "text": "APPUR",
+        "type": "variable"
     },
     {
         "text": "ARRAY-MESSAGE",
@@ -462,6 +427,10 @@
         "type": "keyword"
     },
     {
+        "text": "AUTH_TYP",
+        "type": "variable"
+    },
+    {
         "text": "AUTO-COMPLETION",
         "type": "attribute"
     },
@@ -519,11 +488,11 @@
     },
     {
         "text": "AVAILABLE",
-        "type": "function"
+        "type": "attribute"
     },
     {
         "text": "AVAILABLE",
-        "type": "attribute"
+        "type": "function"
     },
     {
         "text": "AVAILABLE-FORMATS",
@@ -612,8 +581,7 @@
         "type": "method"
     },
     {
-        "text": "BEGINS",
-        "type": "keyword"
+        "text": "BEGINS"
     },
     {
         "text": "BELL",
@@ -646,6 +614,10 @@
     {
         "text": "BLANK",
         "type": "attribute"
+    },
+    {
+        "text": "BLOB",
+        "type": "datatype"
     },
     {
         "text": "BLOCK-ITERATION-DISPLAY",
@@ -693,13 +665,13 @@
     },
     {
         "text": "BOX",
-        "type": "attribute"
-    },
-    {
-        "text": "BOX",
         "snippet": "BOX(${1:value...})",
         "displayText": "BOX()",
         "type": "function"
+    },
+    {
+        "text": "BOX",
+        "type": "attribute"
     },
     {
         "text": "BOX-SELECTABLE",
@@ -723,12 +695,16 @@
     },
     {
         "text": "BUFFER-COMPARE",
+        "type": "statement"
+    },
+    {
+        "text": "BUFFER-COMPARE",
         "snippet": "BUFFER-COMPARE(${1:value...})",
         "displayText": "BUFFER-COMPARE()",
         "type": "method"
     },
     {
-        "text": "BUFFER-COMPARE",
+        "text": "BUFFER-COPY",
         "type": "statement"
     },
     {
@@ -736,10 +712,6 @@
         "snippet": "BUFFER-COPY(${1:value...})",
         "displayText": "BUFFER-COPY()",
         "type": "method"
-    },
-    {
-        "text": "BUFFER-COPY",
-        "type": "statement"
     },
     {
         "text": "BUFFER-CREATE",
@@ -755,23 +727,23 @@
     },
     {
         "text": "BUFFER-FIELD",
-        "snippet": "BUFFER-FIELD(${1:value...})",
-        "displayText": "BUFFER-FIELD()",
-        "type": "method"
+        "type": "attribute"
     },
     {
         "text": "BUFFER-FIELD",
-        "type": "attribute"
-    },
-    {
-        "text": "BUFFER-GROUP-ID",
-        "type": "attribute"
+        "snippet": "BUFFER-FIELD(${1:value...})",
+        "displayText": "BUFFER-FIELD()",
+        "type": "method"
     },
     {
         "text": "BUFFER-GROUP-ID",
         "snippet": "BUFFER-GROUP-ID(${1:value...})",
         "displayText": "BUFFER-GROUP-ID()",
         "type": "function"
+    },
+    {
+        "text": "BUFFER-GROUP-ID",
+        "type": "attribute"
     },
     {
         "text": "BUFFER-GROUP-NAME",
@@ -797,13 +769,13 @@
     },
     {
         "text": "BUFFER-PARTITION-ID",
-        "type": "attribute"
-    },
-    {
-        "text": "BUFFER-PARTITION-ID",
         "snippet": "BUFFER-PARTITION-ID(${1:value...})",
         "displayText": "BUFFER-PARTITION-ID()",
         "type": "function"
+    },
+    {
+        "text": "BUFFER-PARTITION-ID",
+        "type": "attribute"
     },
     {
         "text": "BUFFER-RELEASE",
@@ -813,23 +785,23 @@
     },
     {
         "text": "BUFFER-TENANT-ID",
-        "type": "attribute"
-    },
-    {
-        "text": "BUFFER-TENANT-ID",
         "snippet": "BUFFER-TENANT-ID(${1:value...})",
         "displayText": "BUFFER-TENANT-ID()",
         "type": "function"
+    },
+    {
+        "text": "BUFFER-TENANT-ID",
+        "type": "attribute"
+    },
+    {
+        "text": "BUFFER-TENANT-NAME",
+        "type": "attribute"
     },
     {
         "text": "BUFFER-TENANT-NAME",
         "snippet": "BUFFER-TENANT-NAME(${1:value...})",
         "displayText": "BUFFER-TENANT-NAME()",
         "type": "function"
-    },
-    {
-        "text": "BUFFER-TENANT-NAME",
-        "type": "attribute"
     },
     {
         "text": "BUFFER-VALIDATE",
@@ -1118,6 +1090,10 @@
         "type": "handle"
     },
     {
+        "text": "CLOB",
+        "type": "datatype"
+    },
+    {
         "text": "CLONE-NODE",
         "snippet": "CLONE-NODE(${1:value...})",
         "displayText": "CLONE-NODE()",
@@ -1236,6 +1212,10 @@
         "type": "attribute"
     },
     {
+        "text": "COM-HANDLE",
+        "type": "datatype"
+    },
+    {
         "text": "COM-SELF",
         "type": "handle"
     },
@@ -1305,13 +1285,13 @@
         "text": "CONNECTED",
         "snippet": "CONNECTED(${1:value...})",
         "displayText": "CONNECTED()",
-        "type": "method"
+        "type": "function"
     },
     {
         "text": "CONNECTED",
         "snippet": "CONNECTED(${1:value...})",
         "displayText": "CONNECTED()",
-        "type": "function"
+        "type": "method"
     },
     {
         "text": "CONTAINS",
@@ -1320,6 +1300,14 @@
     {
         "text": "CONTENTS",
         "type": "keyword"
+    },
+    {
+        "text": "CONTENT_LENGT",
+        "type": "variable"
+    },
+    {
+        "text": "CONTENT_TYP",
+        "type": "variable"
     },
     {
         "text": "CONTEXT",
@@ -1366,6 +1354,14 @@
         "snippet": "CONVERT-TO-OFFSET(${1:value...})",
         "displayText": "CONVERT-TO-OFFSET()",
         "type": "method"
+    },
+    {
+        "text": "COOKIEDOMAI",
+        "type": "variable"
+    },
+    {
+        "text": "COOKIEPAT",
+        "type": "variable"
     },
     {
         "text": "COPY-DATASET",
@@ -1503,27 +1499,27 @@
     },
     {
         "text": "CURRENT-ITERATION",
-        "type": "keyword"
-    },
-    {
-        "text": "CURRENT-ITERATION",
         "type": "attribute"
     },
     {
-        "text": "CURRENT-LANG",
-        "type": "function"
+        "text": "CURRENT-ITERATION",
+        "type": "keyword"
     },
     {
         "text": "CURRENT-LANG",
         "type": "statement"
     },
     {
-        "text": "CURRENT-LANGUAGE",
+        "text": "CURRENT-LANG",
         "type": "function"
     },
     {
         "text": "CURRENT-LANGUAGE",
         "type": "statement"
+    },
+    {
+        "text": "CURRENT-LANGUAGE",
+        "type": "function"
     },
     {
         "text": "CURRENT-QUERY",
@@ -1541,13 +1537,13 @@
     },
     {
         "text": "CURRENT-RESULT-ROW",
-        "snippet": "CURRENT-RESULT-ROW(${1:value...})",
-        "displayText": "CURRENT-RESULT-ROW()",
-        "type": "function"
+        "type": "attribute"
     },
     {
         "text": "CURRENT-RESULT-ROW",
-        "type": "attribute"
+        "snippet": "CURRENT-RESULT-ROW(${1:value...})",
+        "displayText": "CURRENT-RESULT-ROW()",
+        "type": "function"
     },
     {
         "text": "CURRENT-ROW-MODIFIED",
@@ -1555,13 +1551,13 @@
     },
     {
         "text": "CURRENT-VALUE",
-        "type": "statement"
-    },
-    {
-        "text": "CURRENT-VALUE",
         "snippet": "CURRENT-VALUE(${1:value...})",
         "displayText": "CURRENT-VALUE()",
         "type": "function"
+    },
+    {
+        "text": "CURRENT-VALUE",
+        "type": "statement"
     },
     {
         "text": "CURRENT-WINDOW",
@@ -1621,11 +1617,11 @@
     },
     {
         "text": "DATA-SOURCE-MODIFIED",
-        "type": "attribute"
+        "type": "function"
     },
     {
         "text": "DATA-SOURCE-MODIFIED",
-        "type": "function"
+        "type": "attribute"
     },
     {
         "text": "DATA-SOURCE-ROWID",
@@ -1677,13 +1673,13 @@
     },
     {
         "text": "DATETIME-TZ",
-        "snippet": "DATETIME-TZ(${1:value...})",
-        "displayText": "DATETIME-TZ()",
-        "type": "function"
+        "type": "datatype"
     },
     {
         "text": "DATETIME-TZ",
-        "type": "datatype"
+        "snippet": "DATETIME-TZ(${1:value...})",
+        "displayText": "DATETIME-TZ()",
+        "type": "function"
     },
     {
         "text": "DAY",
@@ -1818,18 +1814,26 @@
         "type": "keyword"
     },
     {
+        "text": "DEBUG-OPTION",
+        "type": "variable"
+    },
+    {
         "text": "DEBUGGER",
         "type": "handle"
     },
     {
-        "text": "DEC",
-        "type": "datatype"
+        "text": "DEBUGGING-ENABLE",
+        "type": "variable"
     },
     {
         "text": "DEC",
         "snippet": "DEC(${1:value...})",
         "displayText": "DEC()",
         "type": "function"
+    },
+    {
+        "text": "DEC",
+        "type": "datatype"
     },
     {
         "text": "DECIMAL",
@@ -2106,21 +2110,26 @@
     },
     {
         "text": "DISCONNECT",
-        "type": "statement"
-    },
-    {
-        "text": "DISCONNECT",
         "snippet": "DISCONNECT(${1:value...})",
         "displayText": "DISCONNECT()",
         "type": "method"
+    },
+    {
+        "text": "DISCONNECT",
+        "type": "statement"
+    },
+    {
+        "text": "DISP",
+        "type": "statement"
     },
     {
         "text": "DISP",
         "type": "keyword"
     },
     {
-        "text": "DISP",
-        "type": "statement"
+        "text": "DISPLAY",
+        "displayText": "&DISPLAY",
+        "type": "preprocessor"
     },
     {
         "text": "DISPLAY",
@@ -2236,13 +2245,13 @@
     },
     {
         "text": "DYNAMIC-CURRENT-VALUE",
-        "snippet": "DYNAMIC-CURRENT-VALUE(${1:value...})",
-        "displayText": "DYNAMIC-CURRENT-VALUE()",
-        "type": "function"
+        "type": "statement"
     },
     {
         "text": "DYNAMIC-CURRENT-VALUE",
-        "type": "statement"
+        "snippet": "DYNAMIC-CURRENT-VALUE(${1:value...})",
+        "displayText": "DYNAMIC-CURRENT-VALUE()",
+        "type": "function"
     },
     {
         "text": "DYNAMIC-FUNCTION",
@@ -2275,6 +2284,9 @@
     {
         "text": "DYNAMIC-PROPERTY",
         "type": "statement"
+    },
+    {
+        "text": "EACH"
     },
     {
         "text": "EACH",
@@ -2340,6 +2352,11 @@
     },
     {
         "text": "ELSE",
+        "displayText": "&ELSE",
+        "type": "preprocessor"
+    },
+    {
+        "text": "ELSE",
         "type": "function"
     },
     {
@@ -2349,6 +2366,11 @@
     {
         "text": "ELSEIF",
         "type": "keyword"
+    },
+    {
+        "text": "ELSEIF",
+        "displayText": "&ELSEIF",
+        "type": "preprocessor"
     },
     {
         "text": "EMPTY",
@@ -2368,13 +2390,13 @@
     },
     {
         "text": "ENABLE",
-        "snippet": "ENABLE(${1:value...})",
-        "displayText": "ENABLE()",
-        "type": "method"
+        "type": "statement"
     },
     {
         "text": "ENABLE",
-        "type": "statement"
+        "snippet": "ENABLE(${1:value...})",
+        "displayText": "ENABLE()",
+        "type": "method"
     },
     {
         "text": "ENABLE-CONNECTIONS",
@@ -2421,6 +2443,11 @@
     {
         "text": "END",
         "type": "statement"
+    },
+    {
+        "text": "END",
+        "displayText": "&END",
+        "type": "preprocessor"
     },
     {
         "text": "END-DOCUMENT",
@@ -2471,11 +2498,22 @@
         "type": "keyword"
     },
     {
+        "text": "ENDIF",
+        "displayText": "&ENDIF",
+        "type": "preprocessor"
+    },
+    {
         "text": "ENDKEY",
         "type": "keyword"
     },
     {
         "text": "ENTERED",
+        "type": "function"
+    },
+    {
+        "text": "ENTRY",
+        "snippet": "ENTRY(${1:value...})",
+        "displayText": "ENTRY()",
         "type": "function"
     },
     {
@@ -2489,18 +2527,11 @@
         "type": "statement"
     },
     {
-        "text": "ENTRY",
-        "snippet": "ENTRY(${1:value...})",
-        "displayText": "ENTRY()",
-        "type": "function"
-    },
-    {
         "text": "ENTRY-TYPES-LIST",
         "type": "attribute"
     },
     {
-        "text": "EQ",
-        "type": "keyword"
+        "text": "EQ"
     },
     {
         "text": "ERROR",
@@ -2542,6 +2573,10 @@
         "text": "ETIME",
         "snippet": "ETIME(${1:value...})",
         "displayText": "ETIME()",
+        "type": "function"
+    },
+    {
+        "text": "ETIME",
         "type": "function"
     },
     {
@@ -2640,6 +2675,10 @@
     },
     {
         "text": "EXTENT",
+        "type": "statement"
+    },
+    {
+        "text": "EXTENT",
         "type": "attribute"
     },
     {
@@ -2647,10 +2686,6 @@
         "snippet": "EXTENT(${1:value...})",
         "displayText": "EXTENT()",
         "type": "function"
-    },
-    {
-        "text": "EXTENT",
-        "type": "statement"
     },
     {
         "text": "EXTERNAL",
@@ -2677,6 +2712,9 @@
     {
         "text": "FIELD",
         "type": "keyword"
+    },
+    {
+        "text": "FIELD"
     },
     {
         "text": "FIELD",
@@ -2746,13 +2784,13 @@
         "text": "FILL",
         "snippet": "FILL(${1:value...})",
         "displayText": "FILL()",
-        "type": "function"
+        "type": "method"
     },
     {
         "text": "FILL",
         "snippet": "FILL(${1:value...})",
         "displayText": "FILL()",
-        "type": "method"
+        "type": "function"
     },
     {
         "text": "FILL-IN",
@@ -2845,6 +2883,9 @@
         "type": "keyword"
     },
     {
+        "text": "FIRST"
+    },
+    {
         "text": "FIRST",
         "snippet": "FIRST(${1:value...})",
         "displayText": "FIRST()",
@@ -2890,13 +2931,13 @@
         "text": "FIRST-OF",
         "snippet": "FIRST-OF(${1:value...})",
         "displayText": "FIRST-OF()",
-        "type": "function"
+        "type": "method"
     },
     {
         "text": "FIRST-OF",
         "snippet": "FIRST-OF(${1:value...})",
         "displayText": "FIRST-OF()",
-        "type": "method"
+        "type": "function"
     },
     {
         "text": "FIRST-PROCEDURE",
@@ -3060,11 +3101,11 @@
     },
     {
         "text": "FRAME",
-        "type": "widget"
+        "type": "attribute"
     },
     {
         "text": "FRAME",
-        "type": "attribute"
+        "type": "widget"
     },
     {
         "text": "FRAME-COL",
@@ -3206,11 +3247,17 @@
     },
     {
         "text": "FUNCTION",
-        "type": "statement"
+        "type": "attribute"
     },
     {
         "text": "FUNCTION",
-        "type": "attribute"
+        "type": "statement"
+    },
+    {
+        "text": "FUNCTION name...",
+        "displayText": "FUNCTION name...",
+        "snippet": "FUNCTION ${1:name} RETURNS ${2:INT}():\n\nEND FUNCTION.",
+        "type": "statement"
     },
     {
         "text": "FUNCTION-CALL-TYPE",
@@ -3225,8 +3272,11 @@
         "type": "function"
     },
     {
-        "text": "GE",
-        "type": "keyword"
+        "text": "GATEWAY_INTERFAC",
+        "type": "variable"
+    },
+    {
+        "text": "GE"
     },
     {
         "text": "GENERATE-MD5",
@@ -3266,13 +3316,13 @@
     },
     {
         "text": "GET-ATTRIBUTE-NODE",
-        "type": "keyword"
-    },
-    {
-        "text": "GET-ATTRIBUTE-NODE",
         "snippet": "GET-ATTRIBUTE-NODE(${1:value...})",
         "displayText": "GET-ATTRIBUTE-NODE()",
         "type": "method"
+    },
+    {
+        "text": "GET-ATTRIBUTE-NODE",
+        "type": "keyword"
     },
     {
         "text": "GET-BINARY-DATA",
@@ -3840,11 +3890,21 @@
     },
     {
         "text": "GLOB",
+        "displayText": "&GLOB",
+        "type": "preprocessor"
+    },
+    {
+        "text": "GLOB",
         "type": "keyword"
     },
     {
         "text": "GLOBAL",
         "type": "keyword"
+    },
+    {
+        "text": "GLOBAL-DEFINE",
+        "displayText": "&GLOBAL-DEFINE",
+        "type": "preprocessor"
     },
     {
         "text": "GLOBAL-DEFINE",
@@ -3911,14 +3971,17 @@
         "type": "attribute"
     },
     {
-        "text": "GT",
-        "type": "keyword"
+        "text": "GT"
     },
     {
         "text": "GUID",
         "snippet": "GUID(${1:value...})",
         "displayText": "GUID()",
         "type": "function"
+    },
+    {
+        "text": "HANDLE",
+        "type": "datatype"
     },
     {
         "text": "HANDLE",
@@ -3991,6 +4054,10 @@
         "type": "keyword"
     },
     {
+        "text": "HOSTUR",
+        "type": "variable"
+    },
+    {
         "text": "HTML-CHARSET",
         "type": "attribute"
     },
@@ -4027,6 +4094,30 @@
         "type": "attribute"
     },
     {
+        "text": "HTTP",
+        "type": "variable"
+    },
+    {
+        "text": "HTTP-NEWLIN",
+        "type": "variable"
+    },
+    {
+        "text": "HTTP_ACCEP",
+        "type": "variable"
+    },
+    {
+        "text": "HTTP_COOKI",
+        "type": "variable"
+    },
+    {
+        "text": "HTTP_REFERE",
+        "type": "variable"
+    },
+    {
+        "text": "HTTP_USER_AGEN",
+        "type": "variable"
+    },
+    {
         "text": "HWND",
         "type": "attribute"
     },
@@ -4040,11 +4131,16 @@
     },
     {
         "text": "IF",
+        "type": "function"
+    },
+    {
+        "text": "IF",
         "type": "statement"
     },
     {
         "text": "IF",
-        "type": "function"
+        "displayText": "&IF",
+        "type": "preprocessor"
     },
     {
         "text": "IGNORE-CURRENT-MODIFIED",
@@ -4052,11 +4148,11 @@
     },
     {
         "text": "IMAGE",
-        "type": "widget"
+        "type": "attribute"
     },
     {
         "text": "IMAGE",
-        "type": "attribute"
+        "type": "widget"
     },
     {
         "text": "IMAGE-DOWN",
@@ -4130,13 +4226,16 @@
     },
     {
         "text": "INDEX",
+        "type": "attribute"
+    },
+    {
+        "text": "INDEX",
         "snippet": "INDEX(${1:value...})",
         "displayText": "INDEX()",
         "type": "function"
     },
     {
-        "text": "INDEX",
-        "type": "attribute"
+        "text": "INDEX"
     },
     {
         "text": "INDEX-HINT",
@@ -4144,13 +4243,13 @@
     },
     {
         "text": "INDEX-INFORMATION",
-        "snippet": "INDEX-INFORMATION(${1:value...})",
-        "displayText": "INDEX-INFORMATION()",
-        "type": "method"
+        "type": "attribute"
     },
     {
         "text": "INDEX-INFORMATION",
-        "type": "attribute"
+        "snippet": "INDEX-INFORMATION(${1:value...})",
+        "displayText": "INDEX-INFORMATION()",
+        "type": "method"
     },
     {
         "text": "INDEXED-REPOSITION",
@@ -4179,6 +4278,12 @@
     {
         "text": "INHERITS",
         "type": "keyword"
+    },
+    {
+        "text": "INIT"
+    },
+    {
+        "text": "INITIAL"
     },
     {
         "text": "INITIAL",
@@ -4246,13 +4351,13 @@
     },
     {
         "text": "INSERT-ATTRIBUTE",
-        "type": "keyword"
-    },
-    {
-        "text": "INSERT-ATTRIBUTE",
         "snippet": "INSERT-ATTRIBUTE(${1:value...})",
         "displayText": "INSERT-ATTRIBUTE()",
         "type": "method"
+    },
+    {
+        "text": "INSERT-ATTRIBUTE",
+        "type": "keyword"
     },
     {
         "text": "INSERT-BACKTAB",
@@ -4302,13 +4407,13 @@
     },
     {
         "text": "INT",
-        "snippet": "INT(${1:value...})",
-        "displayText": "INT()",
-        "type": "function"
+        "type": "datatype"
     },
     {
         "text": "INT",
-        "type": "datatype"
+        "snippet": "INT(${1:value...})",
+        "displayText": "INT()",
+        "type": "function"
     },
     {
         "text": "INT64",
@@ -4322,13 +4427,13 @@
     },
     {
         "text": "INTEGER",
-        "type": "datatype"
-    },
-    {
-        "text": "INTEGER",
         "snippet": "INTEGER(${1:value...})",
         "displayText": "INTEGER()",
         "type": "function"
+    },
+    {
+        "text": "INTEGER",
+        "type": "datatype"
     },
     {
         "text": "INTERFACE",
@@ -4597,6 +4702,9 @@
         "type": "attribute"
     },
     {
+        "text": "LAST"
+    },
+    {
         "text": "LAST",
         "snippet": "LAST(${1:value...})",
         "displayText": "LAST()",
@@ -4638,13 +4746,13 @@
         "text": "LAST-OF",
         "snippet": "LAST-OF(${1:value...})",
         "displayText": "LAST-OF()",
-        "type": "function"
+        "type": "method"
     },
     {
         "text": "LAST-OF",
         "snippet": "LAST-OF(${1:value...})",
         "displayText": "LAST-OF()",
-        "type": "method"
+        "type": "function"
     },
     {
         "text": "LAST-PROCEDURE",
@@ -4683,8 +4791,7 @@
         "type": "function"
     },
     {
-        "text": "LE",
-        "type": "keyword"
+        "text": "LE"
     },
     {
         "text": "LEAVE",
@@ -4706,9 +4813,7 @@
     },
     {
         "text": "LENGTH",
-        "snippet": "LENGTH(${1:value...})",
-        "displayText": "LENGTH()",
-        "type": "function"
+        "type": "attribute"
     },
     {
         "text": "LENGTH",
@@ -4716,6 +4821,12 @@
     },
     {
         "text": "LENGTH",
+        "snippet": "LENGTH(${1:value...})",
+        "displayText": "LENGTH()",
+        "type": "function"
+    },
+    {
+        "text": "LIBRARY",
         "type": "attribute"
     },
     {
@@ -4723,10 +4834,6 @@
         "snippet": "LIBRARY(${1:value...})",
         "displayText": "LIBRARY()",
         "type": "function"
-    },
-    {
-        "text": "LIBRARY",
-        "type": "attribute"
     },
     {
         "text": "LIBRARY-CALLING-CONVENTION",
@@ -4816,13 +4923,13 @@
     },
     {
         "text": "LOAD",
-        "snippet": "LOAD(${1:value...})",
-        "displayText": "LOAD()",
-        "type": "method"
+        "type": "statement"
     },
     {
         "text": "LOAD",
-        "type": "statement"
+        "snippet": "LOAD(${1:value...})",
+        "displayText": "LOAD()",
+        "type": "method"
     },
     {
         "text": "LOAD-DOMAINS",
@@ -4928,13 +5035,13 @@
     },
     {
         "text": "LOG",
-        "type": "datatype"
-    },
-    {
-        "text": "LOG",
         "snippet": "LOG(${1:value...})",
         "displayText": "LOG()",
         "type": "function"
+    },
+    {
+        "text": "LOG",
+        "type": "datatype"
     },
     {
         "text": "LOG-AUDIT-EVENT",
@@ -4964,13 +5071,13 @@
     },
     {
         "text": "LOGICAL",
-        "snippet": "LOGICAL(${1:value...})",
-        "displayText": "LOGICAL()",
-        "type": "function"
+        "type": "datatype"
     },
     {
         "text": "LOGICAL",
-        "type": "datatype"
+        "snippet": "LOGICAL(${1:value...})",
+        "displayText": "LOGICAL()",
+        "type": "function"
     },
     {
         "text": "LOGIN-EXPIRATION-TIMESTAMP",
@@ -5008,17 +5115,16 @@
         "text": "LOOKUP",
         "snippet": "LOOKUP(${1:value...})",
         "displayText": "LOOKUP()",
-        "type": "function"
+        "type": "method"
     },
     {
         "text": "LOOKUP",
         "snippet": "LOOKUP(${1:value...})",
         "displayText": "LOOKUP()",
-        "type": "method"
+        "type": "function"
     },
     {
-        "text": "LT",
-        "type": "keyword"
+        "text": "LT"
     },
     {
         "text": "LoadControls",
@@ -5091,8 +5197,7 @@
         "type": "method"
     },
     {
-        "text": "MATCHES",
-        "type": "keyword"
+        "text": "MATCHES"
     },
     {
         "text": "MAX",
@@ -5183,6 +5288,10 @@
         "type": "function"
     },
     {
+        "text": "MEMPTR",
+        "type": "datatype"
+    },
+    {
         "text": "MEMPTR-TO-NODE-VALUE",
         "snippet": "MEMPTR-TO-NODE-VALUE(${1:value...})",
         "displayText": "MEMPTR-TO-NODE-VALUE()",
@@ -5227,6 +5336,11 @@
         "snippet": "MERGE-ROW-CHANGES(${1:value...})",
         "displayText": "MERGE-ROW-CHANGES()",
         "type": "method"
+    },
+    {
+        "text": "MESSAGE",
+        "displayText": "&MESSAGE",
+        "type": "preprocessor"
     },
     {
         "text": "MESSAGE",
@@ -5311,16 +5425,18 @@
         "type": "function"
     },
     {
-        "text": "MOD",
-        "type": "keyword"
+        "text": "MISCVARLIST",
+        "type": "variable"
+    },
+    {
+        "text": "MOD"
     },
     {
         "text": "MODIFIED",
         "type": "attribute"
     },
     {
-        "text": "MODULO",
-        "type": "keyword"
+        "text": "MODULO"
     },
     {
         "text": "MONTH",
@@ -5415,8 +5531,14 @@
         "type": "attribute"
     },
     {
+        "text": "NAMESPACE-PREFIX"
+    },
+    {
         "text": "NAMESPACE-PREFIX",
         "type": "attribute"
+    },
+    {
+        "text": "NAMESPACE-URI"
     },
     {
         "text": "NAMESPACE-URI",
@@ -5427,8 +5549,7 @@
         "type": "keyword"
     },
     {
-        "text": "NE",
-        "type": "keyword"
+        "text": "NE"
     },
     {
         "text": "NEEDS-APPSERVER-PROMPT",
@@ -5444,11 +5565,11 @@
     },
     {
         "text": "NEW",
-        "type": "statement"
+        "type": "function"
     },
     {
         "text": "NEW",
-        "type": "function"
+        "type": "statement"
     },
     {
         "text": "NEW",
@@ -5569,6 +5690,9 @@
         "type": "attribute"
     },
     {
+        "text": "NO-ERROR"
+    },
+    {
         "text": "NO-ERROR",
         "type": "keyword"
     },
@@ -5645,6 +5769,9 @@
         "type": "keyword"
     },
     {
+        "text": "NO-MESSAGE"
+    },
+    {
         "text": "NO-MESSAGE",
         "type": "keyword"
     },
@@ -5691,6 +5818,9 @@
     {
         "text": "NO-UNDERLINE",
         "type": "keyword"
+    },
+    {
+        "text": "NO-UNDO"
     },
     {
         "text": "NO-UNDO",
@@ -5745,8 +5875,7 @@
         "type": "method"
     },
     {
-        "text": "NOT",
-        "type": "keyword"
+        "text": "NOT"
     },
     {
         "text": "NOT-ACTIVE",
@@ -5802,13 +5931,13 @@
     },
     {
         "text": "NUM-ENTRIES",
-        "type": "attribute"
-    },
-    {
-        "text": "NUM-ENTRIES",
         "snippet": "NUM-ENTRIES(${1:value...})",
         "displayText": "NUM-ENTRIES()",
         "type": "function"
+    },
+    {
+        "text": "NUM-ENTRIES",
+        "type": "attribute"
     },
     {
         "text": "NUM-FIELDS",
@@ -5828,11 +5957,11 @@
     },
     {
         "text": "NUM-ITERATIONS",
-        "type": "keyword"
+        "type": "attribute"
     },
     {
         "text": "NUM-ITERATIONS",
-        "type": "attribute"
+        "type": "keyword"
     },
     {
         "text": "NUM-LINES",
@@ -5969,8 +6098,7 @@
         "type": "keyword"
     },
     {
-        "text": "OR",
-        "type": "keyword"
+        "text": "OR"
     },
     {
         "text": "ORDERED-JOIN",
@@ -6037,6 +6165,31 @@
     {
         "text": "OTHERWISE",
         "type": "keyword"
+    },
+    {
+        "text": "OUT",
+        "displayText": "&OUT",
+        "type": "preprocessor"
+    },
+    {
+        "text": "OUT-FILE",
+        "displayText": "&OUT-FILE",
+        "type": "preprocessor"
+    },
+    {
+        "text": "OUT-FMT",
+        "displayText": "&OUT-FMT",
+        "type": "preprocessor"
+    },
+    {
+        "text": "OUT-LONG",
+        "displayText": "&OUT-LONG",
+        "type": "preprocessor"
+    },
+    {
+        "text": "OUT-STREAM",
+        "displayText": "&OUT-STREAM",
+        "type": "preprocessor"
     },
     {
         "text": "OUTPUT",
@@ -6155,6 +6308,14 @@
     {
         "text": "PATHNAME",
         "type": "attribute"
+    },
+    {
+        "text": "PATH_INF",
+        "type": "variable"
+    },
+    {
+        "text": "PATH_TRANSLATE",
+        "type": "variable"
     },
     {
         "text": "PAUSE",
@@ -6343,6 +6504,12 @@
         "type": "statement"
     },
     {
+        "text": "PROCEDURE name...",
+        "displayText": "PROCEDURE name...",
+        "snippet": "PROCEDURE ${1:name}:\n\nEND PROCEDURE.",
+        "type": "statement"
+    },
+    {
         "text": "PROCEDURE-CALL-TYPE",
         "type": "keyword"
     },
@@ -6396,19 +6563,19 @@
     },
     {
         "text": "PROMSGS",
-        "type": "statement"
+        "type": "function"
     },
     {
         "text": "PROMSGS",
-        "type": "function"
-    },
-    {
-        "text": "PROPATH",
         "type": "statement"
     },
     {
         "text": "PROPATH",
         "type": "function"
+    },
+    {
+        "text": "PROPATH",
+        "type": "statement"
     },
     {
         "text": "PROPERTY",
@@ -6534,13 +6701,13 @@
     },
     {
         "text": "QUERY-OFF-END",
-        "type": "attribute"
-    },
-    {
-        "text": "QUERY-OFF-END",
         "snippet": "QUERY-OFF-END(${1:value...})",
         "displayText": "QUERY-OFF-END()",
         "type": "function"
+    },
+    {
+        "text": "QUERY-OFF-END",
+        "type": "attribute"
     },
     {
         "text": "QUERY-OPEN",
@@ -6559,16 +6726,20 @@
         "type": "keyword"
     },
     {
+        "text": "QUERY_STRIN",
+        "type": "variable"
+    },
+    {
         "text": "QUESTION",
         "type": "keyword"
     },
     {
         "text": "QUIT",
-        "type": "statement"
+        "type": "attribute"
     },
     {
         "text": "QUIT",
-        "type": "attribute"
+        "type": "statement"
     },
     {
         "text": "QUOTER",
@@ -6604,10 +6775,10 @@
     },
     {
         "text": "RAW",
-        "type": "statement"
+        "type": "datatype"
     },
     {
-        "text": "RAW-TRANSFER",
+        "text": "RAW",
         "type": "statement"
     },
     {
@@ -6617,12 +6788,16 @@
         "type": "method"
     },
     {
-        "text": "RCODE-INFO",
-        "type": "handle"
+        "text": "RAW-TRANSFER",
+        "type": "statement"
     },
     {
         "text": "RCODE-INFO",
         "type": "keyword"
+    },
+    {
+        "text": "RCODE-INFO",
+        "type": "handle"
     },
     {
         "text": "RCODE-INFORMATION",
@@ -6677,6 +6852,10 @@
     {
         "text": "REAL",
         "type": "keyword"
+    },
+    {
+        "text": "RECID",
+        "type": "datatype"
     },
     {
         "text": "RECID",
@@ -6754,13 +6933,13 @@
     },
     {
         "text": "REJECTED",
-        "snippet": "REJECTED(${1:value...})",
-        "displayText": "REJECTED()",
-        "type": "function"
+        "type": "attribute"
     },
     {
         "text": "REJECTED",
-        "type": "attribute"
+        "snippet": "REJECTED(${1:value...})",
+        "displayText": "REJECTED()",
+        "type": "function"
     },
     {
         "text": "RELATION-FIELDS",
@@ -6793,6 +6972,22 @@
         "type": "attribute"
     },
     {
+        "text": "REMOTE_ADD",
+        "type": "variable"
+    },
+    {
+        "text": "REMOTE_HOS",
+        "type": "variable"
+    },
+    {
+        "text": "REMOTE_IDEN",
+        "type": "variable"
+    },
+    {
+        "text": "REMOTE_USE",
+        "type": "variable"
+    },
+    {
         "text": "REMOVE-ATTRIBUTE",
         "snippet": "REMOVE-ATTRIBUTE(${1:value...})",
         "displayText": "REMOVE-ATTRIBUTE()",
@@ -6822,15 +7017,15 @@
     },
     {
         "text": "REPLACE",
-        "snippet": "REPLACE(${1:value...})",
-        "displayText": "REPLACE()",
-        "type": "method"
-    },
-    {
-        "text": "REPLACE",
         "snippet": "REPLACE(${1:source-string},${2:from-string},${3:to-string})",
         "displayText": "REPLACE()",
         "type": "function"
+    },
+    {
+        "text": "REPLACE",
+        "snippet": "REPLACE(${1:value...})",
+        "displayText": "REPLACE()",
+        "type": "method"
     },
     {
         "text": "REPLACE-CHILD",
@@ -6887,6 +7082,10 @@
     {
         "text": "REQUEST-INFO",
         "type": "attribute"
+    },
+    {
+        "text": "REQUEST_METHO",
+        "type": "variable"
     },
     {
         "text": "RESET",
@@ -6956,11 +7155,11 @@
     },
     {
         "text": "RETURN-VALUE",
-        "type": "attribute"
+        "type": "function"
     },
     {
         "text": "RETURN-VALUE",
-        "type": "function"
+        "type": "attribute"
     },
     {
         "text": "RETURN-VALUE-DATA-TYPE",
@@ -7011,6 +7210,10 @@
         "type": "attribute"
     },
     {
+        "text": "ROOTUR",
+        "type": "variable"
+    },
+    {
         "text": "ROUND",
         "snippet": "ROUND(${1:value...})",
         "displayText": "ROUND()",
@@ -7057,6 +7260,10 @@
     {
         "text": "ROW-STATE",
         "type": "attribute"
+    },
+    {
+        "text": "ROWID",
+        "type": "datatype"
     },
     {
         "text": "ROWID",
@@ -7205,6 +7412,16 @@
         "type": "keyword"
     },
     {
+        "text": "SCOP",
+        "displayText": "&SCOP",
+        "type": "preprocessor"
+    },
+    {
+        "text": "SCOPED-DEFINE",
+        "displayText": "&SCOPED-DEFINE",
+        "type": "preprocessor"
+    },
+    {
         "text": "SCOPED-DEFINE",
         "type": "keyword"
     },
@@ -7229,6 +7446,10 @@
     {
         "text": "SCREEN-VALUE",
         "type": "attribute"
+    },
+    {
+        "text": "SCRIPT_NAM",
+        "type": "variable"
     },
     {
         "text": "SCROLL",
@@ -7334,13 +7555,17 @@
     },
     {
         "text": "SEEK",
+        "type": "statement"
+    },
+    {
+        "text": "SEEK",
         "snippet": "SEEK(${1:value...})",
         "displayText": "SEEK()",
         "type": "function"
     },
     {
-        "text": "SEEK",
-        "type": "statement"
+        "text": "SELDELI",
+        "type": "variable"
     },
     {
         "text": "SELECT",
@@ -7407,6 +7632,10 @@
     {
         "text": "SELF",
         "type": "handle"
+    },
+    {
+        "text": "SELFUR",
+        "type": "variable"
     },
     {
         "text": "SEND",
@@ -7479,6 +7708,22 @@
         "type": "attribute"
     },
     {
+        "text": "SERVER_NAM",
+        "type": "variable"
+    },
+    {
+        "text": "SERVER_POR",
+        "type": "variable"
+    },
+    {
+        "text": "SERVER_PROTOCO",
+        "type": "variable"
+    },
+    {
+        "text": "SERVER_SOFTWAR",
+        "type": "variable"
+    },
+    {
         "text": "SESSION",
         "type": "handle"
     },
@@ -7518,13 +7763,13 @@
     },
     {
         "text": "SET-ATTRIBUTE-NODE",
-        "snippet": "SET-ATTRIBUTE-NODE(${1:value...})",
-        "displayText": "SET-ATTRIBUTE-NODE()",
-        "type": "method"
+        "type": "keyword"
     },
     {
         "text": "SET-ATTRIBUTE-NODE",
-        "type": "keyword"
+        "snippet": "SET-ATTRIBUTE-NODE(${1:value...})",
+        "displayText": "SET-ATTRIBUTE-NODE()",
+        "type": "method"
     },
     {
         "text": "SET-BLUE-VALUE",
@@ -7938,13 +8183,13 @@
     },
     {
         "text": "SSL-SERVER-NAME",
-        "snippet": "SSL-SERVER-NAME(${1:value...})",
-        "displayText": "SSL-SERVER-NAME()",
-        "type": "function"
+        "type": "attribute"
     },
     {
         "text": "SSL-SERVER-NAME",
-        "type": "attribute"
+        "snippet": "SSL-SERVER-NAME(${1:value...})",
+        "displayText": "SSL-SERVER-NAME()",
+        "type": "function"
     },
     {
         "text": "STANDALONE",
@@ -8130,13 +8375,13 @@
     },
     {
         "text": "SUBSTR",
-        "snippet": "SUBSTR(${1:value...})",
-        "displayText": "SUBSTR()",
-        "type": "function"
+        "type": "statement"
     },
     {
         "text": "SUBSTR",
-        "type": "statement"
+        "snippet": "SUBSTR(${1:value...})",
+        "displayText": "SUBSTR()",
+        "type": "function"
     },
     {
         "text": "SUBSTRING",
@@ -8286,18 +8531,12 @@
         "text": "TENANT-ID",
         "snippet": "TENANT-ID(${1:value...})",
         "displayText": "TENANT-ID()",
-        "type": "method"
+        "type": "function"
     },
     {
         "text": "TENANT-ID",
         "snippet": "TENANT-ID(${1:value...})",
         "displayText": "TENANT-ID()",
-        "type": "function"
-    },
-    {
-        "text": "TENANT-NAME",
-        "snippet": "TENANT-NAME(${1:value...})",
-        "displayText": "TENANT-NAME()",
         "type": "method"
     },
     {
@@ -8305,6 +8544,12 @@
         "snippet": "TENANT-NAME(${1:value...})",
         "displayText": "TENANT-NAME()",
         "type": "function"
+    },
+    {
+        "text": "TENANT-NAME",
+        "snippet": "TENANT-NAME(${1:value...})",
+        "displayText": "TENANT-NAME()",
+        "type": "method"
     },
     {
         "text": "TENANT-NAME-TO-ID",
@@ -8318,11 +8563,11 @@
     },
     {
         "text": "TERM",
-        "type": "keyword"
+        "type": "function"
     },
     {
         "text": "TERM",
-        "type": "function"
+        "type": "keyword"
     },
     {
         "text": "TERMINAL",
@@ -8354,19 +8599,24 @@
     },
     {
         "text": "THEN",
+        "type": "statement"
+    },
+    {
+        "text": "THEN",
         "type": "function"
     },
     {
         "text": "THEN",
-        "type": "statement"
-    },
-    {
-        "text": "THIS-OBJECT",
-        "type": "statement"
+        "displayText": "&THEN",
+        "type": "preprocessor"
     },
     {
         "text": "THIS-OBJECT",
         "type": "keyword"
+    },
+    {
+        "text": "THIS-OBJECT",
+        "type": "statement"
     },
     {
         "text": "THIS-PROCEDURE",
@@ -8450,11 +8700,11 @@
     },
     {
         "text": "TOGGLE-BOX",
-        "type": "attribute"
+        "type": "widget"
     },
     {
         "text": "TOGGLE-BOX",
-        "type": "widget"
+        "type": "attribute"
     },
     {
         "text": "TOOLTIP",
@@ -8571,6 +8821,16 @@
         "type": "keyword"
     },
     {
+        "text": "UNDEF",
+        "displayText": "&UNDEF",
+        "type": "preprocessor"
+    },
+    {
+        "text": "UNDEFINE",
+        "displayText": "&UNDEFINE",
+        "type": "preprocessor"
+    },
+    {
         "text": "UNDEFINE",
         "type": "keyword"
     },
@@ -8585,6 +8845,9 @@
     {
         "text": "UNDO",
         "type": "attribute"
+    },
+    {
+        "text": "UNDO"
     },
     {
         "text": "UNDO",
@@ -8713,6 +8976,10 @@
         "type": "keyword"
     },
     {
+        "text": "USECONNI",
+        "type": "variable"
+    },
+    {
         "text": "USER",
         "type": "keyword"
     },
@@ -8729,6 +8996,10 @@
     {
         "text": "USING",
         "type": "statement"
+    },
+    {
+        "text": "UTC-OFFSE",
+        "type": "variable"
     },
     {
         "text": "V6DISPLAY",
@@ -8758,13 +9029,13 @@
     },
     {
         "text": "VALIDATE",
-        "snippet": "VALIDATE(${1:value...})",
-        "displayText": "VALIDATE()",
-        "type": "method"
+        "type": "statement"
     },
     {
         "text": "VALIDATE",
-        "type": "statement"
+        "snippet": "VALIDATE(${1:value...})",
+        "displayText": "VALIDATE()",
+        "type": "method"
     },
     {
         "text": "VALIDATE-EXPRESSION",
@@ -8881,6 +9152,15 @@
         "type": "handle"
     },
     {
+        "text": "WEB-UTILITIES-HD",
+        "type": "variable"
+    },
+    {
+        "text": "WEBSTREAM",
+        "displayText": "&WEBSTREAM",
+        "type": "preprocessor"
+    },
+    {
         "text": "WEBSTREAM",
         "type": "keyword"
     },
@@ -8916,6 +9196,10 @@
     },
     {
         "text": "WIDGET-HANDLE",
+        "type": "datatype"
+    },
+    {
+        "text": "WIDGET-HANDLE",
         "snippet": "WIDGET-HANDLE(${1:value...})",
         "displayText": "WIDGET-HANDLE()",
         "type": "function"
@@ -8946,11 +9230,11 @@
     },
     {
         "text": "WINDOW",
-        "type": "attribute"
+        "type": "widget"
     },
     {
         "text": "WINDOW",
-        "type": "widget"
+        "type": "attribute"
     },
     {
         "text": "WINDOW-CLOSE",
@@ -9141,12 +9425,21 @@
         "type": "attribute"
     },
     {
+        "text": "XML-DATA-TYPE"
+    },
+    {
         "text": "XML-DATA-TYPE",
         "type": "attribute"
     },
     {
+        "text": "XML-NODE-NAME"
+    },
+    {
         "text": "XML-NODE-NAME",
         "type": "attribute"
+    },
+    {
+        "text": "XML-NODE-TYPE"
     },
     {
         "text": "XML-NODE-TYPE",
