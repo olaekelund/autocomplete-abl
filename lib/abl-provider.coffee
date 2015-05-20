@@ -15,7 +15,7 @@ addType = (arr, types, prefix) ->
 	for value in completions when firstCharsEqual(prefix,value.text) and -1 isnt types.indexOf value.type
 		value.replacementPrefix = prefix
 		arr.push(value)
-	for value in completions when otherCharsEqual(prefix,value.text) and -1 isnt types.indexOf value.type
+	for value in completions when prefix isnt '.' and otherCharsEqual(prefix,value.text) and -1 isnt types.indexOf value.type
 		value.replacementPrefix = prefix
 		arr.push(value)
 
@@ -38,7 +38,7 @@ class AblProvider
 				for value in completions when firstCharsEqual(prefix,value.text)
 					value.replacementPrefix = prefix
 					vls.push(value)
-				for value in completions when otherCharsEqual(prefix,value.text)
+				for value in completions when prefix isnt '.' and otherCharsEqual(prefix,value.text)
 					value.replacementPrefix = prefix
 					vls.push(value)
 
